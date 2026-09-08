@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  # PostgreSQL - Relational metadata, documents, chunks, and lineage
+  postgres:
+    image: postgres:16-alpine
+    container_name: petrorag_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-petrorag}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-petrorag}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Qdrant - High-performance Rust-based Vector Search Engine
+  qdrant:
+    image: qdrant/qdrant:v1.8.4
+    container_name: petrorag_qdrant
+    restart: unless-stopped
+    ports:
+      - "${QDRANT_PORT:-6333}:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:6333/healthz"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+    driver: local
+  qdrant_data:
+    driver: local
