@@ -1,0 +1,6 @@
+model_name,total_queries,answerable_queries,unanswerable_queries,recall_at_1,recall_at_3,recall_at_5,precision_at_1,precision_at_3,precision_at_5,mrr,ndcg_at_5,faithfulness,citation_precision,hallucination_rate,abstention_precision,abstention_recall,abstention_f1,mean_latency_ms,mean_prompt_tokens,mean_completion_tokens,mean_total_tokens,token_savings_percent
+Baseline 0 (Direct LLM),50,40,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,50.0,45.0,95.0,0.0
+Baseline 1 (Dense RAG),50,40,10,0.7375,0.925,0.925,0.75,0.3166,0.19,0.825,0.8486,0.85,0.425,0.15,0.0,0.0,0.0,1.38,161.5,60.0,221.5,0.0
+Model 2 (Hybrid RAG),50,40,10,0.8125,0.95,0.95,0.825,0.325,0.195,0.8875,0.9019,0.95,0.475,0.05,0.0,0.0,0.0,4.57,80.0,60.0,140.0,0.0
+Model 3 (Hybrid + Rerank),50,40,10,0.825,0.975,1.0,0.825,0.3333,0.205,0.9021,0.9287,0.95,0.475,0.05,0.0,0.0,0.0,17.46,457.5,60.0,517.5,0.0
+Model 4 (Proposed PetroRAG),50,40,10,0.725,0.9625,1.0,0.725,0.325,0.205,0.8521,0.89,0.95,0.4625,0.05,0.9091,1.0,0.9524,8.14,283.5,52.3,335.8,20.1

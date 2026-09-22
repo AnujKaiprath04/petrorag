@@ -23,6 +23,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+from backend.app.api.v1.endpoints.rag import router as rag_router
+from backend.app.api.v1.endpoints.operational import router as operational_router
+app.include_router(rag_router, prefix="/api/v1")
+app.include_router(operational_router, prefix="/api/v1")
+
 
 @app.get("/health", tags=["System"])
 async def health_check():

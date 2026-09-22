@@ -1,0 +1,18 @@
+\section{Related Work}
+\label{sec:related_work}
+
+\subsection{Retrieval-Augmented Generation (RAG) Foundations}
+Retrieval-Augmented Generation (RAG), formalized by Lewis et al.~\cite{lewis2020retrieval}, combines parametric sequence-to-sequence neural architectures with non-parametric index lookups. In standard dense retrieval systems~\cite{karpukhin2020dense}, dual-encoder transformer models map queries and document passages into continuous dense representations, retrieving candidate evidence through maximum inner product search (MIPS). While dense embeddings capture broad semantic paraphrasing effectively, empirical studies establish that dense models underperform significantly when querying alphanumeric asset identifiers, technical codes, or rare domain entities.
+
+\subsection{Hybrid Lexical-Semantic Retrieval and Cross-Encoders}
+To address dense retrieval vulnerabilities, hybrid IR approaches combine dense representations with sparse lexical algorithms such as BM25~\cite{robertson2009probabilistic}. Combining disjoint rank distributions requires rank aggregation frameworks. Cormack, Clarke, and Buettcher~\cite{cormack2009reciprocal} demonstrated that Reciprocal Rank Fusion (RRF):
+\begin{equation}
+\label{eq:rrf}
+RRF(d \in \mathcal{D}) = \sum_{m \in \mathcal{M}} \frac{w_m}{k + r_m(d)}
+\end{equation}
+consistently outperforms Condorcet and learning-to-rank baselines without requiring parameter recalibration across differing score scales. Second-stage reranking via Cross-Encoders~\cite{nogueira2019passage} allows full cross-attention across concatenated (query, document) pairs, capturing token-level interaction and eliminating dual-encoder compression artifacts.
+
+\subsection{Context Ordering, Compression, and Grounding Verification}
+Recent investigations into transformer attention mechanisms reveal significant position bias. Liu et al.~\cite{liu2024lost} identified the ``lost-in-the-middle'' phenomenon, where LLMs recall information positioned at the extreme boundaries (beginning or end) of the prompt significantly better than passages located in the central third. To mitigate token context bloat and lost-in-the-middle degradation, extractive context compression preserves high-salience propositions while discarding conversational boilerplate.
+
+Post-generation verification has emerged as an essential requirement for high-stakes domains~\cite{shuster2021retrieval,jiang2023active}. Automated claim decomposition extracts atomic factual assertions from the LLM output and validates each claim against supporting context through Natural Language Inference (NLI) or exact parameter verification. When evidence is contradictory, insufficient, or absent, robust architectures must trigger defensive abstention rather than outputting speculative conclusions.

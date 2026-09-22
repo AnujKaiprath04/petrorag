@@ -1,0 +1,24 @@
+[
+  {
+    "incident_id": "INC-2023-014",
+    "date": "2023-04-18",
+    "equipment_id": "EQ-C101",
+    "well_id": "WELL-A1",
+    "incident_type": "MECHANICAL_FAILURE",
+    "severity": "HIGH",
+    "description": "Centrifugal compressor high vibration trip at 7.8 mm/s due to dry gas seal contamination and journal bearing wear.",
+    "root_cause": "Condensate carryover from suction scrubber fouled lube oil and scored radial bearing pads.",
+    "action_taken": "Replaced journal bearings, cleaned dry gas seal filter, purged lube oil system per SOP-MNT-042."
+  },
+  {
+    "incident_id": "INC-2023-039",
+    "date": "2023-09-05",
+    "equipment_id": "EQ-V102",
+    "well_id": "WELL-A1",
+    "incident_type": "PROCESS_UPSET",
+    "severity": "MEDIUM",
+    "description": "Electrostatic coalescer tripped on high water interface level causing oil carryover into gas line.",
+    "root_cause": "Interface level transmitter LT-102 zero-point drift led to false level readout and dump valve closure.",
+    "action_taken": "Recalibrated guided wave radar level transmitter and cleared emulsion pad."
+  }
+]

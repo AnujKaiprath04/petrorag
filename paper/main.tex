@@ -1,0 +1,54 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+% Essential LaTeX Packages
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{url}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor=blue
+}
+
+\begin{document}
+
+\title{PetroRAG: Intelligent Retrieval-Augmented Decision Support System for Oil \& Gas Production Operations with Multi-Barrier Safety Guardrails}
+
+\author{\IEEEauthorblockN{PetroRAG Research \& Development Team}
+\IEEEauthorblockA{\textit{Advanced Industrial AI Laboratory} \\
+\textit{Petroleum Engineering \& Data Intelligence Group} \\
+Email: contact@petrorag-research.org}
+}
+
+\maketitle
+
+\begin{abstract}
+Reliability and safety in oil and gas production facilities hinge upon rapid, precise synthesis of telemetry alerts with dense technical documentation, equipment operating envelopes, and industry standards (e.g., API 610/617, ISO 10816-3). While Retrieval-Augmented Generation (RAG) offers significant potential for operator decision support, standard pipelines exhibit catastrophic failure modes in high-stakes energy settings, including hallucinated trip setpoints, failure to distinguish exact alphanumeric asset tags, and hazardous speculation on out-of-scope queries. We present \textbf{PetroRAG}, a robust, domain-engineered RAG decision-support architecture. PetroRAG integrates dual-channel hybrid retrieval (dense vectors fused with specialized lexical BM25 preserving asset codes), cross-encoder reranking with asset integrity constraints, automated revision management, lost-in-the-middle context compression, and multi-barrier safety abstention gates. Evaluated across an authoritative benchmark of 12 critical oilfield asset documents (46 structured passages) and 50 curated queries, PetroRAG achieves perfect retrieval recall ($Recall@5 = 1.0000$), $MRR = 0.8521$, high generation faithfulness ($0.9500$), and superior safety compliance ($Abstention\ F_1 = 0.9524$), while reducing hallucinations to $0.0500$ and cutting prompt token overhead by $20.1\%$. Systematic ablations confirm the vital necessity of every subsystem in eliminating cross-asset operational risk.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Retrieval-Augmented Generation, Oil \& Gas Operations, Decision Support Systems, Information Retrieval, Industrial Safety, Hallucination Suppression, Large Language Models.
+\end{IEEEkeywords}
+
+\input{sections/01_introduction.tex}
+\input{sections/02_related_work.tex}
+\input{sections/03_petrorag_architecture.tex}
+\input{sections/04_experimental_setup.tex}
+\input{sections/05_results_and_discussion.tex}
+\input{sections/06_conclusion.tex}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

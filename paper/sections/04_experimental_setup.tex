@@ -1,0 +1,34 @@
+\section{Experimental Setup}
+\label{sec:experimental_setup}
+
+\subsection{Benchmark Corpus Construction}
+To evaluate PetroRAG under realistic operational conditions, we constructed an authoritative Oil \& Gas technical corpus consisting of 12 comprehensive asset documents partitioned into 46 semantic passages (\texttt{data/processed/corpus_documents.json}). The corpus covers diverse critical production infrastructure:
+\begin{enumerate}
+    \item \textbf{C-101 (REV-03 \& REV-04):} Multi-stage barrel centrifugal gas compressor, incorporating active revision notice ECN-2025-084 regarding tilting-pad bearing retrofits and vibration trip recalibration.
+    \item \textbf{V-102:} Electrostatic 3-phase oil/gas/water production separator with high-voltage (15--25 kV) coalescence grid safety interlocks.
+    \item \textbf{ESDV-201:} Topsides export gas emergency shutdown ball valve, certified to SIL-3 integrity per IEC 61508 and API 607 fire-safe testing.
+    \item \textbf{ESP-304:} Electric submersible pump with downhole sensor motor winding temperature envelopes and VSD underload/overload trip curves.
+    \item \textbf{GDU-401:} Triethylene glycol (TEG) dehydration unit, contactor column, reboiler firetube flux limits, and moisture dew point specifications.
+    \item \textbf{KO-501:} Flare knockout drum, API 521 blowdown sizing, high-high liquid level (LAHH) trip logic, and purge gas velocity requirements.
+    \item \textbf{E-205:} Shell and tube heat exchanger governed by TEMA Class R, crude/water fouling margins, and bundle extraction rigging SOPs.
+    \item \textbf{GTG-01:} 25 MWe aeroderivative dual-fuel gas turbine generator, exhaust thermocouple spread limits, and NOx water injection ratios.
+    \item \textbf{PL-101:} ASME B31.8 transmission pipeline pig launcher/receiver, trapped-key door safety interlock sequences, and kicker valve bypass procedures.
+    \item \textbf{WHCP-01:} Multi-well wellhead control panel, 345 barg hydraulic header logic, and 138$^\circ$C fusible loop fire detection.
+    \item \textbf{SOP-SAF-012:} Company-wide Lockout/Tagout standard, Golden Safety Rule \#2, and three-point electrical dead-test verification.
+\end{enumerate}
+
+\subsection{Gold-Standard Query Test Suite}
+The evaluation suite comprises 50 curated queries (\texttt{data/ground_truth/benchmark_qa.json}):
+\begin{itemize}
+    \item \textbf{40 Answerable Technical Queries:} Stratified across six operational disciplines: Equipment Operating Envelopes ($\mathcal{N}=10$), Maintenance SOPs ($\mathcal{N}=8$), HSE and Critical Interlocks ($\mathcal{N}=8$), Root-Cause Troubleshooting ($\mathcal{N}=7$), Standards Compliance ($\mathcal{N}=4$), and Superseded Revision Resolution ($\mathcal{N}=3$).
+    \item \textbf{10 Unanswerable Safety Queries:} Formulated to assess defensive abstention capabilities across four distinct hazard classes: Prompt Injection / System Jailbreaks ($\mathcal{N}=3$), Out-of-Scope Non-O\&G Topics ($\mathcal{N}=3$), Non-Existent Equipment Identifiers ($\mathcal{N}=2$), and Ambiguous / Underspecified Inquiries ($\mathcal{N}=2$).
+\end{itemize}
+
+\subsection{Evaluation Metrics}
+System performance is evaluated using standard IR and generation fidelity metrics:
+\begin{itemize}
+    \item \textbf{Information Retrieval:} $Recall@K$, $Precision@K$, Mean Reciprocal Rank ($MRR$), and Normalized Discounted Cumulative Gain ($NDCG@5$).
+    \item \textbf{Generation Fidelity:} $Faithfulness$ (ratio of supported atomic claims to total claims), $Citation\ Precision$ (proportion of citations corresponding to relevant ground truth), and $Hallucination\ Rate$ (ratio of unsupported or contradicted claims).
+    \item \textbf{Operational Safety:} $Abstention\ Precision$, $Abstention\ Recall$, and $Abstention\ F_1$ across the binary classification of answerable versus unanswerable query streams.
+    \item \textbf{Computational Footprint:} End-to-end processing latency (ms) and prompt token savings (\%).
+\end{itemize}

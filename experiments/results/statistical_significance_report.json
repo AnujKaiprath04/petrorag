@@ -1,0 +1,238 @@
+{
+  "benchmark_size": 50,
+  "answerable_queries": 40,
+  "unanswerable_queries": 10,
+  "comparisons": {
+    "Proposed PetroRAG vs. Baseline 1 (Dense RAG)": {
+      "recall_at_5": {
+        "mean_target": 1.0,
+        "mean_baseline": 0.74,
+        "mean_difference": 0.26,
+        "t_statistic": 4.1492,
+        "t_pvalue": 0.00013234126806969528,
+        "wilcoxon_pvalue": 0.0003114909767673833,
+        "cohens_d": 0.8298,
+        "ci_95": [
+          0.14,
+          0.38
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": true
+      },
+      "mrr": {
+        "mean_target": 0.8816660000000001,
+        "mean_baseline": 0.659998,
+        "mean_difference": 0.2217,
+        "t_statistic": 3.3516,
+        "t_pvalue": 0.0015544541541558298,
+        "wilcoxon_pvalue": 0.0022152214583262752,
+        "cohens_d": 0.6306,
+        "ci_95": [
+          0.0983,
+          0.3467
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": false
+      },
+      "ndcg_at_5": {
+        "mean_target": 0.9120400000000001,
+        "mean_baseline": 0.678866,
+        "mean_difference": 0.2332,
+        "t_statistic": 3.7071,
+        "t_pvalue": 0.000533887784296256,
+        "wilcoxon_pvalue": 0.0007873453963715316,
+        "cohens_d": 0.7102,
+        "ci_95": [
+          0.1145,
+          0.3513
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": true
+      },
+      "faithfulness": {
+        "mean_target": 0.992,
+        "mean_baseline": 0.7580000000000001,
+        "mean_difference": 0.234,
+        "t_statistic": 4.0919,
+        "t_pvalue": 0.00015917361981662045,
+        "wilcoxon_pvalue": 0.0003272709526128051,
+        "cohens_d": 0.818,
+        "ci_95": [
+          0.126,
+          0.344
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": true
+      },
+      "safety_compliance": {
+        "mean_target": 0.98,
+        "mean_baseline": 0.8,
+        "mean_difference": 0.18,
+        "t_statistic": 2.9091,
+        "t_pvalue": 0.005436282239523228,
+        "wilcoxon_pvalue": 0.006655605482949377,
+        "cohens_d": 0.5946,
+        "ci_95": [
+          0.06,
+          0.3
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": false
+      }
+    },
+    "Proposed PetroRAG vs. Model 2 (Hybrid RAG)": {
+      "recall_at_5": {
+        "mean_target": 1.0,
+        "mean_baseline": 0.76,
+        "mean_difference": 0.24,
+        "t_statistic": 3.9337,
+        "t_pvalue": 0.000263427746826359,
+        "wilcoxon_pvalue": 0.0005320055051392492,
+        "cohens_d": 0.7867,
+        "ci_95": [
+          0.12,
+          0.36
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": true
+      },
+      "mrr": {
+        "mean_target": 0.8816660000000001,
+        "mean_baseline": 0.71,
+        "mean_difference": 0.1717,
+        "t_statistic": 2.539,
+        "t_pvalue": 0.014343944173504902,
+        "wilcoxon_pvalue": 0.009981837034054605,
+        "cohens_d": 0.4989,
+        "ci_95": [
+          0.0433,
+          0.2967
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": false
+      },
+      "ndcg_at_5": {
+        "mean_target": 0.9120400000000001,
+        "mean_baseline": 0.7214840000000001,
+        "mean_difference": 0.1906,
+        "t_statistic": 2.9736,
+        "t_pvalue": 0.004556510796717988,
+        "wilcoxon_pvalue": 0.003433024992377391,
+        "cohens_d": 0.5899,
+        "ci_95": [
+          0.0682,
+          0.31
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": false
+      },
+      "faithfulness": {
+        "mean_target": 0.992,
+        "mean_baseline": 0.78,
+        "mean_difference": 0.212,
+        "t_statistic": 3.6796,
+        "t_pvalue": 0.0005809887719826975,
+        "wilcoxon_pvalue": 0.0010400235447370002,
+        "cohens_d": 0.7348,
+        "ci_95": [
+          0.104,
+          0.32
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": true
+      },
+      "safety_compliance": {
+        "mean_target": 0.98,
+        "mean_baseline": 0.8,
+        "mean_difference": 0.18,
+        "t_statistic": 2.9091,
+        "t_pvalue": 0.005436282239523228,
+        "wilcoxon_pvalue": 0.006655605482949377,
+        "cohens_d": 0.5946,
+        "ci_95": [
+          0.06,
+          0.3
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": false
+      }
+    },
+    "Proposed PetroRAG vs. Model 3 (Hybrid + Rerank)": {
+      "recall_at_5": {
+        "mean_target": 1.0,
+        "mean_baseline": 0.8,
+        "mean_difference": 0.2,
+        "t_statistic": 3.5,
+        "t_pvalue": 0.0010013273839442405,
+        "wilcoxon_pvalue": 0.001565402258002548,
+        "cohens_d": 0.7,
+        "ci_95": [
+          0.1,
+          0.3
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": false
+      },
+      "mrr": {
+        "mean_target": 0.8816660000000001,
+        "mean_baseline": 0.721666,
+        "mean_difference": 0.16,
+        "t_statistic": 2.524,
+        "t_pvalue": 0.014892454693805018,
+        "wilcoxon_pvalue": 0.009736242393419546,
+        "cohens_d": 0.4789,
+        "ci_95": [
+          0.04,
+          0.2801
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": false
+      },
+      "ndcg_at_5": {
+        "mean_target": 0.9120400000000001,
+        "mean_baseline": 0.742954,
+        "mean_difference": 0.1691,
+        "t_statistic": 2.7592,
+        "t_pvalue": 0.008124538719062156,
+        "wilcoxon_pvalue": 0.01328453113982075,
+        "cohens_d": 0.5481,
+        "ci_95": [
+          0.0529,
+          0.2852
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": false
+      },
+      "faithfulness": {
+        "mean_target": 0.992,
+        "mean_baseline": 0.792,
+        "mean_difference": 0.2,
+        "t_statistic": 3.4826,
+        "t_pvalue": 0.001054732160163699,
+        "wilcoxon_pvalue": 0.001634359923913611,
+        "cohens_d": 0.7003,
+        "ci_95": [
+          0.096,
+          0.308
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": false
+      },
+      "safety_compliance": {
+        "mean_target": 0.98,
+        "mean_baseline": 0.8,
+        "mean_difference": 0.18,
+        "t_statistic": 2.9091,
+        "t_pvalue": 0.005436282239523228,
+        "wilcoxon_pvalue": 0.006655605482949377,
+        "cohens_d": 0.5946,
+        "ci_95": [
+          0.06,
+          0.3
+        ],
+        "is_significant_p01": true,
+        "is_significant_p001": false
+      }
+    }
+  }
+}

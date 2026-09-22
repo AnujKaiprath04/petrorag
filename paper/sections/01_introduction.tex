@@ -1,0 +1,24 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Upstream and midstream oil and gas operations represent highly mission-critical, asset-intensive environments where operational decisions directly impact personnel safety, environmental stewardship, and billions of dollars in infrastructure. Offshore production platforms, gas processing facilities, and pipeline networks generate heterogeneous streams of high-frequency SCADA telemetry alongside vast corpora of unstructured engineering documentation, including vendor operating manuals, Process and Instrumentation Diagrams (P\&IDs), emergency shutdown (ESD) logic matrices, standard operating procedures (SOPs), and international compliance standards (e.g., ISO 10816-3~\cite{iso10816}, API 610/617~\cite{api610,api617}, IEC 61508/61511~\cite{iec61508,iec61511}).
+
+When process upsets, high-vibration trips, or mechanical failures manifest on critical rotating equipment, control room operators and facility reliability engineers face severe cognitive load. Operators must rapidly synthesize transient sensor anomalies (e.g., multi-axis radial vibration, motor winding thermal excursions, differential pressure surges) with authoritative engineering operating limits, maintenance revisions, and lockout/tagout (LOTO) energy isolation protocols~\cite{osha_loto}. Conventional computational approaches in the energy sector exhibit a stark dichotomy: on one hand, numerical SCADA alarm monitors lack semantic contextualization, while on the other, standard enterprise search engines retrieve keyword matches without reasoning capabilities.
+
+Recently, Large Language Models (LLMs) coupled with Retrieval-Augmented Generation (RAG)~\cite{lewis2020retrieval,karpukhin2020dense} have emerged as a promising paradigm for knowledge-intensive decision support. However, naive application of off-the-shelf RAG architectures to oil and gas operations introduces unacceptable catastrophic risks:
+\begin{enumerate}
+    \item \textbf{High-Stakes Technical Hallucinations:} Unassisted or weakly grounded LLMs generate plausible yet physically hazardous hallucinations, such as fabricating trip setpoints, confusing bar and psig pressure units, or misinterpreting critical safety limits.
+    \item \textbf{Failure on Exact Equipment and Revision Codes:} Dense semantic vector retrieval frequently fails to distinguish between fine-grained alphanumeric asset tags (e.g., confusing Centrifugal Compressor \texttt{C-101} with Pump \texttt{P-101A}) or fails to identify superseding engineering change notices (e.g., applying superseded Revision 03 setpoints rather than active Revision 04).
+    \item \textbf{Absence of Safety Abstention Gates:} Conventional RAG models attempt to answer out-of-scope, adversarial, or ambiguous inputs, whereas mission-critical safety mandates rigorous, multi-barrier abstention when information is missing or ungrounded.
+\end{enumerate}
+
+To overcome these structural limitations, this paper introduces \textbf{PetroRAG}, an industrial-grade, retrieval-augmented decision support architecture engineered specifically for energy production infrastructure. PetroRAG unifies five key architectural innovations:
+\begin{enumerate}
+    \item \textbf{Dual-Channel Hybrid Retrieval with Reciprocal Rank Fusion (RRF):} Combines dense semantic vector indexing with specialized BM25 lexical tokenization preserving engineering acronyms and asset codes~\cite{robertson2009probabilistic,cormack2009reciprocal}.
+    \item \textbf{Cross-Encoder Reranking and Revision Resolution:} Deploys pairwise cross-attention reranking calibrated against physical equipment tags and automated revision lineages, ensuring superseding specifications override legacy manuals~\cite{nogueira2019passage}.
+    \item \textbf{Extractive Context Compression with Parameter Auditing:} Extracts salient technical sentences under a lost-in-the-middle ordering strategy~\cite{liu2024lost}, achieving substantial prompt token reduction while preserving 100\% of critical operating numbers.
+    \item \textbf{Atomic Claim Verification and Grounding:} Evaluates post-generation claim entailment at the atomic proposition level, binding every output to verifiable document citations.
+    \item \textbf{Multi-Barrier Safety Abstention Mechanism:} Enforces four defense-in-depth barriers that safely suppress generation when queries contain adversarial injections, out-of-scope domain topics, or ungrounded claims.
+\end{enumerate}
+
+\noindent \textbf{Empirical Contributions and Academic Integrity:} In accordance with strict empirical standards, all experimental metrics reported in this study ($Recall@K$, $MRR$, $NDCG@5$, $Faithfulness$, $Citation\ Precision$, $Hallucination\ Rate$, $Abstention\ F_1$, Latency, and Token Savings) are derived directly from an executed gold-standard benchmark corpus spanning 12 comprehensive asset documents (46 structured passages) and 50 curated queries.

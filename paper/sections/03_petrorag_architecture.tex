@@ -1,0 +1,46 @@
+\section{PetroRAG System Architecture}
+\label{sec:architecture}
+
+The PetroRAG architecture is engineered as a defense-in-depth, 9-stage modular pipeline designed to eliminate hallucinations, enforce exact technical standards, and provide auditable lineage for all recommendations.
+
+\subsection{Query Validation and Security Barrier (Barrier 1)}
+Incoming queries pass through an initial structural and security validation layer. The validator executes regex-based syntax analysis to intercept adversarial prompt injection attempts (e.g., instruction override patterns, jailbreak payloads) and malicious operating system command syntax (e.g., destructive SQL drop commands, shell command piping). Queries that fail validation are immediately halted with standardized abstention reports.
+
+\subsection{Intent Classification and Domain Entity Extraction}
+Clean queries are processed concurrently by an Intent Classifier and a Rule-Based Entity Extractor. The Intent Classifier maps queries into 15 canonical operational categories (e.g., \texttt{EQUIPMENT}, \texttt{TROUBLESHOOTING}, \texttt{MAINTENANCE}, \texttt{SAFETY}). Concurrently, the Entity Extractor identifies alphanumeric asset tags (matching ISA/KKS patterns such as \texttt{C-101}, \texttt{V-102}, \texttt{ESDV-201}), engineering standards (e.g., API 610, ISO 10816-3), and physical operating parameters (pressure, vibration, temperature). These entities populate structured metadata filters for downstream retrieval.
+
+\subsection{Dual-Channel Hybrid Retrieval}
+To achieve high recall across both conceptual queries and exact technical identifiers, PetroRAG operates two parallel retrieval channels:
+\begin{enumerate}
+    \item \textbf{Dense Semantic Channel:} Documents are vectorized using a 768-dimensional transformer embedding model and indexed in Qdrant. Semantic similarity is computed using cosine distance:
+    \begin{equation}
+    S_{\text{dense}}(q, d) = \frac{\mathbf{e}_q \cdot \mathbf{e}_d}{\|\mathbf{e}_q\| \|\mathbf{e}_d\|}
+    \end{equation}
+    \item \textbf{Sparse Lexical Channel:} Documents are tokenized using a specialized Oil \& Gas tokenizer that preserves hyphenated equipment tags, fractional units, and engineering abbreviations, indexed via BM25Okapi:
+    \begin{equation}
+    S_{\text{sparse}}(q, d) = \sum_{t \in q} \text{IDF}(t) \cdot \frac{f(t, d) \cdot (k_1 + 1)}{f(t, d) + k_1 \cdot \left(1 - b + b \cdot \frac{|d|}{\text{avgdl}}\right)}
+    \end{equation}
+\end{enumerate}
+Candidate lists from both channels are merged using Reciprocal Rank Fusion (Eq.~\ref{eq:rrf}) with smoothing constant $k=60$ and channel weights $w_{\text{dense}}=0.55$, $w_{\text{sparse}}=0.45$.
+
+\subsection{Cross-Encoder Reranking and Revision Management}
+The fused candidate pool is reranked using a Cross-Encoder that computes full cross-attention across concatenated query-chunk pairs. To eliminate cross-equipment confusion, the reranker applies an asset-tag integrity gate: candidates referencing equipment tags disjoint from the query's target asset receive an automatic suppression penalty.
+
+Following reranking, the \textbf{Revision Manager} evaluates the document lineage metadata. When both legacy and superseding revisions are retrieved (e.g., \texttt{DOC-C101-REV03} and \texttt{DOC-C101-REV04}), the Revision Manager dynamically deprecates the superseded passage, ensuring that updated operating thresholds override legacy procedures.
+
+\subsection{Retrieval Quality Floor (Barrier 2)}
+Before context construction, candidate scores are checked against an empirical confidence threshold ($\tau_{\text{ret}} = 0.30$). If the highest-scoring candidate fails to exceed $\tau_{\text{ret}}$ or if the candidate pool is empty, Barrier 2 triggers an immediate abstention, preventing ungrounded generation on out-of-scope or non-existent equipment requests.
+
+\subsection{Lost-in-the-Middle Context Selection and Compression}
+The Context Selector packs candidate passages into a predefined token budget (2,048 tokens) using a bi-directional arrangement strategy where the highest-ranked evidence is placed at the head and tail of the context window to maximize transformer attention salience.
+
+The \textbf{Context Compressor} then extracts salient sentences containing technical parameters, setpoints, and operational instructions. Non-informative narrative filler is pruned while 100\% of physical units and numbers are audited and preserved, achieving over 14\% prompt token savings.
+
+\subsection{Grounded Generation and Post-Generation Verification (Barriers 3 \& 4)}
+The synthesized prompt injects retrieved context inside structured XML delimiters (\texttt{<CONTEXT>...</CONTEXT>}) to neutralize potential indirect injection. The generation engine formulates an answer while embedding bracketed document and page citations (e.g., \texttt{[CHK-C101-06]}).
+
+Post-generation, the \textbf{Grounding Evaluator} extracts atomic propositions and evaluates claim-level entailment:
+\begin{equation}
+\text{Faithfulness} = \frac{|\mathcal{C}_{\text{supported}}|}{|\mathcal{C}_{\text{total}}|}
+\end{equation}
+If any atomic claim directly contradicts source parameters (Barrier 4) or if the overall faithfulness falls below $\tau_{\text{ground}} = 0.70$ (Barrier 3), the output is suppressed and replaced with an auditable safety warning.

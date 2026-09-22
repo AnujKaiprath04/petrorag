@@ -1,0 +1,4062 @@
+{
+  "Baseline 0 (Direct LLM)": [
+    {
+      "query_id": "QA-001",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-C101-06"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-002",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-V102-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-003",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-03"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-004",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-ESP304-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-005",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-GDU401-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-006",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-KO501-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-007",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-E205-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-008",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-GTG01-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-009",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-PL101-01"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-010",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-011",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-03"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-012",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-PL101-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-013",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-E205-03"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-014",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-SOP-03"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-015",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-GDU401-03"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-016",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-03"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-017",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-KO501-04"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-018",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-GTG01-04"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-019",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-SOP-01"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-020",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-01"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-021",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-KO501-03"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-022",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-023",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-V102-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-024",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-ESP304-04"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-025",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-C101-04"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-026",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-GTG01-03"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-027",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-C101-03"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-028",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-ESP304-03"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-029",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-GDU401-04"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-030",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-E205-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-031",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-KO501-03"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-032",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-ESP304-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-033",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-GTG01-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-034",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-C101-02"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-035",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-04"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-036",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-E205-01"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-037",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-PL101-01"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-038",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-06"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-039",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-C101-05"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-040",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [
+        "CHK-C101-06"
+      ],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-041",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-042",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-043",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-044",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-045",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-046",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-047",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-048",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-049",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    },
+    {
+      "query_id": "QA-050",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.0,
+      "total_tokens": 95,
+      "answer_snippet": "Based on general engineering principles, the system operating thresholds and limits typically fall w"
+    }
+  ],
+  "Baseline 1 (Dense RAG)": [
+    {
+      "query_id": "QA-001",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-04",
+        "CHK-C101-06",
+        "CHK-C101-01",
+        "CHK-GDU401-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-06"
+      ],
+      "latency_ms": 1.61,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-002",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-V102-02",
+        "CHK-ESP304-04",
+        "CHK-V102-01",
+        "CHK-WHCP01-03",
+        "CHK-C101-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-V102-02"
+      ],
+      "latency_ms": 1.51,
+      "total_tokens": 140,
+      "answer_snippet": "According to Electrostatic 3-Phase Separator V-102 Operating Manual (Section 2.3 High-Voltage Electr"
+    },
+    {
+      "query_id": "QA-003",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-03",
+        "CHK-WHCP01-03",
+        "CHK-ESDV201-02",
+        "CHK-GTG01-02",
+        "CHK-PL101-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-03"
+      ],
+      "latency_ms": 1.65,
+      "total_tokens": 269,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 3.0 Partial &"
+    },
+    {
+      "query_id": "QA-004",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-02",
+        "CHK-C101-04",
+        "CHK-C101-06",
+        "CHK-GTG01-02",
+        "CHK-KO501-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-02"
+      ],
+      "latency_ms": 1.17,
+      "total_tokens": 268,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 2.2 Motor"
+    },
+    {
+      "query_id": "QA-005",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GDU401-02",
+        "CHK-GDU401-01",
+        "CHK-V102-01",
+        "CHK-ESP304-02",
+        "CHK-ESP304-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GDU401-02"
+      ],
+      "latency_ms": 1.09,
+      "total_tokens": 140,
+      "answer_snippet": "According to Glycol Dehydration Unit GDU-401 Process Operations Manual (Section 2.2 TEG Reboiler & S"
+    },
+    {
+      "query_id": "QA-006",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-02",
+        "CHK-V102-03",
+        "CHK-KO501-01",
+        "CHK-E205-01",
+        "CHK-GTG01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-02"
+      ],
+      "latency_ms": 1.2,
+      "total_tokens": 413,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 2.0 Liquid Level Interlocks "
+    },
+    {
+      "query_id": "QA-007",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-02",
+        "CHK-V102-04",
+        "CHK-PL101-03",
+        "CHK-C101-04",
+        "CHK-GDU401-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-02"
+      ],
+      "latency_ms": 1.21,
+      "total_tokens": 391,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 2.1 Fouling Margin & Diff"
+    },
+    {
+      "query_id": "QA-008",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-02",
+        "CHK-GTG01-01",
+        "CHK-GTG01-04",
+        "CHK-C101-06",
+        "CHK-ESP304-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-02"
+      ],
+      "latency_ms": 1.31,
+      "total_tokens": 286,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 2.2 Exhaust Thermocoup"
+    },
+    {
+      "query_id": "QA-009",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-01",
+        "CHK-PL101-03",
+        "CHK-E205-02",
+        "CHK-SOP-02",
+        "CHK-C101-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-PL101-01"
+      ],
+      "latency_ms": 1.09,
+      "total_tokens": 140,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 1.0 Design & Code Compliance): PL-"
+    },
+    {
+      "query_id": "QA-010",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-WHCP01-02",
+        "CHK-C101-01",
+        "CHK-WHCP01-01",
+        "CHK-V102-03",
+        "CHK-KO501-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-02"
+      ],
+      "latency_ms": 1.18,
+      "total_tokens": 275,
+      "answer_snippet": "According to Wellhead Control Panel WHCP-01 Logic & Operations Manual (Section 2.2 Fusible Loop Fire"
+    },
+    {
+      "query_id": "QA-011",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-03",
+        "CHK-ESDV201-04",
+        "CHK-KO501-04",
+        "CHK-E205-03",
+        "CHK-GTG01-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-03"
+      ],
+      "latency_ms": 1.18,
+      "total_tokens": 269,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 3.0 Partial &"
+    },
+    {
+      "query_id": "QA-012",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-01",
+        "CHK-SOP-03",
+        "CHK-GTG01-01",
+        "CHK-PL101-03",
+        "CHK-WHCP01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-PL101-02"
+      ],
+      "latency_ms": 1.1,
+      "total_tokens": 140,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 1.0 Design & Code Compliance): PL-"
+    },
+    {
+      "query_id": "QA-013",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-03",
+        "CHK-SOP-02",
+        "CHK-GTG01-04",
+        "CHK-GDU401-02",
+        "CHK-PL101-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-03"
+      ],
+      "latency_ms": 1.06,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 3.0 Tube Bundle Pull & Sa"
+    },
+    {
+      "query_id": "QA-014",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-SOP-04",
+        "CHK-GDU401-04",
+        "CHK-SOP-03",
+        "CHK-C101-02",
+        "CHK-SOP-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-SOP-03"
+      ],
+      "latency_ms": 1.08,
+      "total_tokens": 140,
+      "answer_snippet": "According to Lockout / Tagout & Electrical Isolation Standard SOP-SAF-012 (Section 4.0 Group Lockbox"
+    },
+    {
+      "query_id": "QA-015",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-02",
+        "CHK-GDU401-04",
+        "CHK-GDU401-03",
+        "CHK-V102-04",
+        "CHK-V102-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GDU401-03"
+      ],
+      "latency_ms": 1.34,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 2.1 Fouling Margin & Diff"
+    },
+    {
+      "query_id": "QA-016",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-01",
+        "CHK-V102-03",
+        "CHK-WHCP01-01",
+        "CHK-WHCP01-02",
+        "CHK-V102-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-03"
+      ],
+      "latency_ms": 1.69,
+      "total_tokens": 140,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 1.0 Turbine Ratings & "
+    },
+    {
+      "query_id": "QA-017",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-01",
+        "CHK-KO501-04",
+        "CHK-ESP304-03",
+        "CHK-GTG01-04",
+        "CHK-KO501-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-04"
+      ],
+      "latency_ms": 2.0,
+      "total_tokens": 140,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 1.0 Vessel Sizing & Technica"
+    },
+    {
+      "query_id": "QA-018",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-04",
+        "CHK-GTG01-01",
+        "CHK-ESP304-03",
+        "CHK-ESDV201-01",
+        "CHK-KO501-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-04"
+      ],
+      "latency_ms": 2.05,
+      "total_tokens": 268,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 4.0 Startup Purge Sequ"
+    },
+    {
+      "query_id": "QA-019",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-SOP-01",
+        "CHK-KO501-03",
+        "CHK-V102-03",
+        "CHK-WHCP01-01",
+        "CHK-WHCP01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-SOP-01"
+      ],
+      "latency_ms": 1.65,
+      "total_tokens": 266,
+      "answer_snippet": "According to Lockout / Tagout & Electrical Isolation Standard SOP-SAF-012 (Section 1.0 Golden Safety"
+    },
+    {
+      "query_id": "QA-020",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-01",
+        "CHK-C101-04",
+        "CHK-ESDV201-02",
+        "CHK-ESP304-03",
+        "CHK-SOP-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-01"
+      ],
+      "latency_ms": 1.24,
+      "total_tokens": 140,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 1.0 Valve Spe"
+    },
+    {
+      "query_id": "QA-021",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-03",
+        "CHK-KO501-01",
+        "CHK-GTG01-04",
+        "CHK-GTG01-01",
+        "CHK-ESP304-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-03"
+      ],
+      "latency_ms": 1.23,
+      "total_tokens": 269,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 3.1 Continuous Purge Gas & T"
+    },
+    {
+      "query_id": "QA-022",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-WHCP01-02",
+        "CHK-WHCP01-01",
+        "CHK-WHCP01-04",
+        "CHK-ESDV201-02",
+        "CHK-ESDV201-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-02"
+      ],
+      "latency_ms": 1.32,
+      "total_tokens": 275,
+      "answer_snippet": "According to Wellhead Control Panel WHCP-01 Logic & Operations Manual (Section 2.2 Fusible Loop Fire"
+    },
+    {
+      "query_id": "QA-023",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-V102-02",
+        "CHK-V102-03",
+        "CHK-V102-01",
+        "CHK-GTG01-03",
+        "CHK-KO501-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-V102-02"
+      ],
+      "latency_ms": 1.29,
+      "total_tokens": 278,
+      "answer_snippet": "According to Electrostatic 3-Phase Separator V-102 Operating Manual (Section 2.3 High-Voltage Electr"
+    },
+    {
+      "query_id": "QA-024",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-04",
+        "CHK-C101-01",
+        "CHK-ESP304-01",
+        "CHK-ESDV201-04",
+        "CHK-KO501-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-04"
+      ],
+      "latency_ms": 1.13,
+      "total_tokens": 140,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 4.0 VSD E"
+    },
+    {
+      "query_id": "QA-025",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-04",
+        "CHK-C101-01",
+        "CHK-C101-06",
+        "CHK-C101-05",
+        "CHK-V102-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-04"
+      ],
+      "latency_ms": 1.18,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 4.3 Lube Oil & Bear"
+    },
+    {
+      "query_id": "QA-026",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-03",
+        "CHK-GTG01-01",
+        "CHK-ESP304-03",
+        "CHK-GTG01-04",
+        "CHK-GDU401-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-03"
+      ],
+      "latency_ms": 1.5,
+      "total_tokens": 268,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 3.1 NOx Abatement Wate"
+    },
+    {
+      "query_id": "QA-027",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-03",
+        "CHK-C101-05",
+        "CHK-WHCP01-03",
+        "CHK-PL101-02",
+        "CHK-ESDV201-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-03"
+      ],
+      "latency_ms": 1.59,
+      "total_tokens": 306,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 3.1 Anti-Surge Cont"
+    },
+    {
+      "query_id": "QA-028",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-03",
+        "CHK-KO501-04",
+        "CHK-KO501-03",
+        "CHK-GDU401-03",
+        "CHK-V102-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-03"
+      ],
+      "latency_ms": 1.39,
+      "total_tokens": 409,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 3.1 Gas L"
+    },
+    {
+      "query_id": "QA-029",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GDU401-02",
+        "CHK-GDU401-04",
+        "CHK-GDU401-01",
+        "CHK-ESP304-03",
+        "CHK-KO501-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GDU401-04"
+      ],
+      "latency_ms": 1.52,
+      "total_tokens": 570,
+      "answer_snippet": "According to Glycol Dehydration Unit GDU-401 Process Operations Manual (Section 2.2 TEG Reboiler & S"
+    },
+    {
+      "query_id": "QA-030",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-02",
+        "CHK-E205-01",
+        "CHK-V102-03",
+        "CHK-KO501-02",
+        "CHK-GDU401-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-02"
+      ],
+      "latency_ms": 1.32,
+      "total_tokens": 140,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 2.0 Mechanical Trapped-Key Interlo"
+    },
+    {
+      "query_id": "QA-031",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-03",
+        "CHK-GDU401-02",
+        "CHK-KO501-01",
+        "CHK-C101-04",
+        "CHK-GTG01-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-03"
+      ],
+      "latency_ms": 1.66,
+      "total_tokens": 848,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 3.1 Continuous Purge Gas & T"
+    },
+    {
+      "query_id": "QA-032",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-02",
+        "CHK-ESP304-04",
+        "CHK-V102-02",
+        "CHK-ESP304-01",
+        "CHK-KO501-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-02"
+      ],
+      "latency_ms": 1.27,
+      "total_tokens": 268,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 2.2 Motor"
+    },
+    {
+      "query_id": "QA-033",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-02",
+        "CHK-ESDV201-02",
+        "CHK-GTG01-04",
+        "CHK-GDU401-03",
+        "CHK-GDU401-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-02"
+      ],
+      "latency_ms": 1.31,
+      "total_tokens": 286,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 2.2 Exhaust Thermocoup"
+    },
+    {
+      "query_id": "QA-034",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-02",
+        "CHK-C101-01",
+        "CHK-ESP304-03",
+        "CHK-ESDV201-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-02"
+      ],
+      "latency_ms": 1.18,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-035",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-04",
+        "CHK-ESDV201-01",
+        "CHK-KO501-01",
+        "CHK-GDU401-01",
+        "CHK-C101-05"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-04"
+      ],
+      "latency_ms": 1.34,
+      "total_tokens": 393,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 4.2 Seat Leak"
+    },
+    {
+      "query_id": "QA-036",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-01",
+        "CHK-GTG01-03",
+        "CHK-GTG01-04",
+        "CHK-KO501-03",
+        "CHK-WHCP01-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-01"
+      ],
+      "latency_ms": 1.21,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 1.0 Exchanger Design per "
+    },
+    {
+      "query_id": "QA-037",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-01",
+        "CHK-WHCP01-03",
+        "CHK-PL101-04",
+        "CHK-PL101-02",
+        "CHK-SOP-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-PL101-01"
+      ],
+      "latency_ms": 2.6,
+      "total_tokens": 140,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 1.0 Design & Code Compliance): PL-"
+    },
+    {
+      "query_id": "QA-038",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-02",
+        "CHK-C101-06",
+        "CHK-PL101-04",
+        "CHK-V102-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-06"
+      ],
+      "latency_ms": 2.22,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-039",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-06",
+        "CHK-C101-04",
+        "CHK-C101-02",
+        "CHK-SOP-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-05"
+      ],
+      "latency_ms": 1.21,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-040",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-06",
+        "CHK-C101-02",
+        "CHK-C101-04",
+        "CHK-E205-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-06"
+      ],
+      "latency_ms": 1.34,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-041",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-04",
+        "CHK-SOP-01",
+        "CHK-ESDV201-02",
+        "CHK-GDU401-04",
+        "CHK-C101-06"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 1.15,
+      "total_tokens": 140,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 4.0 VSD E"
+    },
+    {
+      "query_id": "QA-042",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-SOP-01",
+        "CHK-SOP-04",
+        "CHK-SOP-02",
+        "CHK-C101-06",
+        "CHK-PL101-03"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 1.17,
+      "total_tokens": 140,
+      "answer_snippet": "According to Lockout / Tagout & Electrical Isolation Standard SOP-SAF-012 (Section 1.0 Golden Safety"
+    },
+    {
+      "query_id": "QA-043",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-V102-02",
+        "CHK-V102-03",
+        "CHK-ESDV201-03",
+        "CHK-C101-03",
+        "CHK-WHCP01-04"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 1.13,
+      "total_tokens": 140,
+      "answer_snippet": "According to Electrostatic 3-Phase Separator V-102 Operating Manual (Section 2.3 High-Voltage Electr"
+    },
+    {
+      "query_id": "QA-044",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-03",
+        "CHK-C101-03",
+        "CHK-KO501-02",
+        "CHK-C101-06",
+        "CHK-C101-02"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 1.19,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 3.0 Tube Bundle Pull & Sa"
+    },
+    {
+      "query_id": "QA-045",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-WHCP01-03",
+        "CHK-ESDV201-02",
+        "CHK-GDU401-04",
+        "CHK-GTG01-01",
+        "CHK-C101-05"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 1.22,
+      "total_tokens": 140,
+      "answer_snippet": "According to Wellhead Control Panel WHCP-01 Logic & Operations Manual (Section 3.0 Wellhead Automate"
+    },
+    {
+      "query_id": "QA-046",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-04",
+        "CHK-E205-01",
+        "CHK-WHCP01-01",
+        "CHK-GTG01-03",
+        "CHK-ESP304-02"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 1.23,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 4.2 Hydrotesting & Tube I"
+    },
+    {
+      "query_id": "QA-047",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-06",
+        "CHK-V102-04",
+        "CHK-V102-03",
+        "CHK-V102-01",
+        "CHK-ESP304-02"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 1.26,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-048",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-V102-04",
+        "CHK-GDU401-02",
+        "CHK-ESDV201-03",
+        "CHK-PL101-04",
+        "CHK-SOP-02"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 1.22,
+      "total_tokens": 140,
+      "answer_snippet": "According to Electrostatic 3-Phase Separator V-102 Operating Manual (Section 4.1 Demister Pad DP & A"
+    },
+    {
+      "query_id": "QA-049",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-02",
+        "CHK-GDU401-03",
+        "CHK-KO501-04",
+        "CHK-V102-01",
+        "CHK-PL101-03"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 1.2,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 2.1 Fouling Margin & Diff"
+    },
+    {
+      "query_id": "QA-050",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-02",
+        "CHK-C101-06",
+        "CHK-V102-04",
+        "CHK-KO501-01",
+        "CHK-ESP304-01"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 2.17,
+      "total_tokens": 140,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 2.0 Liquid Level Interlocks "
+    }
+  ],
+  "Model 2 (Hybrid RAG)": [
+    {
+      "query_id": "QA-001",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-06",
+        "CHK-C101-04",
+        "CHK-C101-01",
+        "CHK-C101-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-06"
+      ],
+      "latency_ms": 4.89,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-002",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-V102-02",
+        "CHK-V102-01",
+        "CHK-C101-03",
+        "CHK-WHCP01-03",
+        "CHK-C101-06"
+      ],
+      "ground_truth_chunks": [
+        "CHK-V102-02"
+      ],
+      "latency_ms": 4.13,
+      "total_tokens": 140,
+      "answer_snippet": "According to Electrostatic 3-Phase Separator V-102 Operating Manual (Section 2.3 High-Voltage Electr"
+    },
+    {
+      "query_id": "QA-003",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-03",
+        "CHK-WHCP01-03",
+        "CHK-ESDV201-02",
+        "CHK-WHCP01-04",
+        "CHK-ESDV201-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-03"
+      ],
+      "latency_ms": 3.93,
+      "total_tokens": 140,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 3.0 Partial &"
+    },
+    {
+      "query_id": "QA-004",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-02",
+        "CHK-C101-04",
+        "CHK-C101-06",
+        "CHK-KO501-02",
+        "CHK-ESP304-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-02"
+      ],
+      "latency_ms": 5.43,
+      "total_tokens": 140,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 2.2 Motor"
+    },
+    {
+      "query_id": "QA-005",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GDU401-02",
+        "CHK-GDU401-01",
+        "CHK-ESP304-01",
+        "CHK-V102-01",
+        "CHK-GDU401-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GDU401-02"
+      ],
+      "latency_ms": 4.3,
+      "total_tokens": 140,
+      "answer_snippet": "According to Glycol Dehydration Unit GDU-401 Process Operations Manual (Section 2.2 TEG Reboiler & S"
+    },
+    {
+      "query_id": "QA-006",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-02",
+        "CHK-V102-03",
+        "CHK-KO501-01",
+        "CHK-C101-04",
+        "CHK-V102-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-02"
+      ],
+      "latency_ms": 4.67,
+      "total_tokens": 140,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 2.0 Liquid Level Interlocks "
+    },
+    {
+      "query_id": "QA-007",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-02",
+        "CHK-V102-04",
+        "CHK-PL101-03",
+        "CHK-GDU401-03",
+        "CHK-ESDV201-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-02"
+      ],
+      "latency_ms": 4.23,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 2.1 Fouling Margin & Diff"
+    },
+    {
+      "query_id": "QA-008",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-02",
+        "CHK-GTG01-01",
+        "CHK-GTG01-04",
+        "CHK-C101-06",
+        "CHK-C101-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-02"
+      ],
+      "latency_ms": 5.05,
+      "total_tokens": 140,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 2.2 Exhaust Thermocoup"
+    },
+    {
+      "query_id": "QA-009",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-01",
+        "CHK-PL101-03",
+        "CHK-E205-02",
+        "CHK-PL101-04",
+        "CHK-V102-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-PL101-01"
+      ],
+      "latency_ms": 4.02,
+      "total_tokens": 140,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 1.0 Design & Code Compliance): PL-"
+    },
+    {
+      "query_id": "QA-010",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-WHCP01-02",
+        "CHK-WHCP01-01",
+        "CHK-C101-01",
+        "CHK-V102-03",
+        "CHK-C101-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-02"
+      ],
+      "latency_ms": 4.12,
+      "total_tokens": 140,
+      "answer_snippet": "According to Wellhead Control Panel WHCP-01 Logic & Operations Manual (Section 2.2 Fusible Loop Fire"
+    },
+    {
+      "query_id": "QA-011",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-03",
+        "CHK-ESDV201-04",
+        "CHK-KO501-04",
+        "CHK-C101-01",
+        "CHK-ESDV201-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-03"
+      ],
+      "latency_ms": 5.04,
+      "total_tokens": 140,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 3.0 Partial &"
+    },
+    {
+      "query_id": "QA-012",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-01",
+        "CHK-PL101-03",
+        "CHK-SOP-03",
+        "CHK-C101-03",
+        "CHK-V102-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-PL101-02"
+      ],
+      "latency_ms": 7.24,
+      "total_tokens": 140,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 1.0 Design & Code Compliance): PL-"
+    },
+    {
+      "query_id": "QA-013",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-03",
+        "CHK-SOP-02",
+        "CHK-E205-04",
+        "CHK-GDU401-02",
+        "CHK-E205-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-03"
+      ],
+      "latency_ms": 4.36,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 3.0 Tube Bundle Pull & Sa"
+    },
+    {
+      "query_id": "QA-014",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-SOP-04",
+        "CHK-SOP-03",
+        "CHK-C101-02",
+        "CHK-SOP-01",
+        "CHK-C101-06"
+      ],
+      "ground_truth_chunks": [
+        "CHK-SOP-03"
+      ],
+      "latency_ms": 5.65,
+      "total_tokens": 140,
+      "answer_snippet": "According to Lockout / Tagout & Electrical Isolation Standard SOP-SAF-012 (Section 4.0 Group Lockbox"
+    },
+    {
+      "query_id": "QA-015",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GDU401-03",
+        "CHK-GDU401-04",
+        "CHK-E205-02",
+        "CHK-V102-04",
+        "CHK-ESDV201-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GDU401-03"
+      ],
+      "latency_ms": 4.28,
+      "total_tokens": 140,
+      "answer_snippet": "According to Glycol Dehydration Unit GDU-401 Process Operations Manual (Section 3.3 Glycol Filtratio"
+    },
+    {
+      "query_id": "QA-016",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-WHCP01-01",
+        "CHK-V102-03",
+        "CHK-V102-02",
+        "CHK-GDU401-01",
+        "CHK-GTG01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-03"
+      ],
+      "latency_ms": 4.1,
+      "total_tokens": 140,
+      "answer_snippet": "According to Wellhead Control Panel WHCP-01 Logic & Operations Manual (Section 1.0 Panel Architectur"
+    },
+    {
+      "query_id": "QA-017",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-01",
+        "CHK-KO501-04",
+        "CHK-KO501-03",
+        "CHK-ESP304-03",
+        "CHK-GTG01-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-04"
+      ],
+      "latency_ms": 4.35,
+      "total_tokens": 140,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 1.0 Vessel Sizing & Technica"
+    },
+    {
+      "query_id": "QA-018",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-04",
+        "CHK-GTG01-01",
+        "CHK-ESDV201-01",
+        "CHK-KO501-03",
+        "CHK-C101-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-04"
+      ],
+      "latency_ms": 4.36,
+      "total_tokens": 140,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 4.0 Startup Purge Sequ"
+    },
+    {
+      "query_id": "QA-019",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-SOP-01",
+        "CHK-SOP-04",
+        "CHK-SOP-02",
+        "CHK-WHCP01-01",
+        "CHK-GDU401-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-SOP-01"
+      ],
+      "latency_ms": 4.31,
+      "total_tokens": 140,
+      "answer_snippet": "According to Lockout / Tagout & Electrical Isolation Standard SOP-SAF-012 (Section 1.0 Golden Safety"
+    },
+    {
+      "query_id": "QA-020",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-01",
+        "CHK-ESDV201-02",
+        "CHK-C101-04",
+        "CHK-C101-06",
+        "CHK-WHCP01-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-01"
+      ],
+      "latency_ms": 4.11,
+      "total_tokens": 140,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 1.0 Valve Spe"
+    },
+    {
+      "query_id": "QA-021",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-03",
+        "CHK-KO501-01",
+        "CHK-GTG01-04",
+        "CHK-ESP304-02",
+        "CHK-GDU401-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-03"
+      ],
+      "latency_ms": 4.2,
+      "total_tokens": 140,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 3.1 Continuous Purge Gas & T"
+    },
+    {
+      "query_id": "QA-022",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-WHCP01-02",
+        "CHK-WHCP01-01",
+        "CHK-WHCP01-04",
+        "CHK-C101-03",
+        "CHK-ESDV201-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-02"
+      ],
+      "latency_ms": 6.1,
+      "total_tokens": 140,
+      "answer_snippet": "According to Wellhead Control Panel WHCP-01 Logic & Operations Manual (Section 2.2 Fusible Loop Fire"
+    },
+    {
+      "query_id": "QA-023",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-V102-02",
+        "CHK-V102-03",
+        "CHK-V102-01",
+        "CHK-KO501-02",
+        "CHK-WHCP01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-V102-02"
+      ],
+      "latency_ms": 4.0,
+      "total_tokens": 140,
+      "answer_snippet": "According to Electrostatic 3-Phase Separator V-102 Operating Manual (Section 2.3 High-Voltage Electr"
+    },
+    {
+      "query_id": "QA-024",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-04",
+        "CHK-ESP304-01",
+        "CHK-C101-01",
+        "CHK-SOP-04",
+        "CHK-C101-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-04"
+      ],
+      "latency_ms": 4.24,
+      "total_tokens": 140,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 4.0 VSD E"
+    },
+    {
+      "query_id": "QA-025",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-04",
+        "CHK-C101-01",
+        "CHK-C101-06",
+        "CHK-C101-05",
+        "CHK-V102-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-04"
+      ],
+      "latency_ms": 5.24,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 4.3 Lube Oil & Bear"
+    },
+    {
+      "query_id": "QA-026",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-03",
+        "CHK-GTG01-01",
+        "CHK-ESP304-03",
+        "CHK-GTG01-04",
+        "CHK-GTG01-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-03"
+      ],
+      "latency_ms": 3.8,
+      "total_tokens": 140,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 3.1 NOx Abatement Wate"
+    },
+    {
+      "query_id": "QA-027",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-03",
+        "CHK-C101-05",
+        "CHK-WHCP01-03",
+        "CHK-C101-04",
+        "CHK-ESDV201-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-03"
+      ],
+      "latency_ms": 4.16,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 3.1 Anti-Surge Cont"
+    },
+    {
+      "query_id": "QA-028",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-03",
+        "CHK-KO501-04",
+        "CHK-KO501-03",
+        "CHK-GTG01-03",
+        "CHK-GDU401-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-03"
+      ],
+      "latency_ms": 4.05,
+      "total_tokens": 140,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 3.1 Gas L"
+    },
+    {
+      "query_id": "QA-029",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GDU401-04",
+        "CHK-GDU401-02",
+        "CHK-GDU401-01",
+        "CHK-ESP304-03",
+        "CHK-GTG01-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GDU401-04"
+      ],
+      "latency_ms": 4.59,
+      "total_tokens": 140,
+      "answer_snippet": "According to Glycol Dehydration Unit GDU-401 Process Operations Manual (Section 4.1 Glycol Loss & Fo"
+    },
+    {
+      "query_id": "QA-030",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-01",
+        "CHK-E205-02",
+        "CHK-GDU401-02",
+        "CHK-E205-04",
+        "CHK-GDU401-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-02"
+      ],
+      "latency_ms": 4.21,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 1.0 Exchanger Design per "
+    },
+    {
+      "query_id": "QA-031",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-03",
+        "CHK-KO501-01",
+        "CHK-C101-04",
+        "CHK-GTG01-02",
+        "CHK-GDU401-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-03"
+      ],
+      "latency_ms": 4.28,
+      "total_tokens": 140,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 3.1 Continuous Purge Gas & T"
+    },
+    {
+      "query_id": "QA-032",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-02",
+        "CHK-ESP304-04",
+        "CHK-ESP304-01",
+        "CHK-KO501-03",
+        "CHK-GTG01-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-02"
+      ],
+      "latency_ms": 4.18,
+      "total_tokens": 140,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 2.2 Motor"
+    },
+    {
+      "query_id": "QA-033",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-02",
+        "CHK-GTG01-04",
+        "CHK-GTG01-01",
+        "CHK-ESDV201-02",
+        "CHK-GTG01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-02"
+      ],
+      "latency_ms": 4.56,
+      "total_tokens": 140,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 2.2 Exhaust Thermocoup"
+    },
+    {
+      "query_id": "QA-034",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-02",
+        "CHK-ESDV201-01",
+        "CHK-C101-01",
+        "CHK-C101-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-02"
+      ],
+      "latency_ms": 4.09,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-035",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-04",
+        "CHK-ESDV201-01",
+        "CHK-KO501-01",
+        "CHK-GDU401-01",
+        "CHK-WHCP01-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-04"
+      ],
+      "latency_ms": 4.09,
+      "total_tokens": 140,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 4.2 Seat Leak"
+    },
+    {
+      "query_id": "QA-036",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-01",
+        "CHK-GDU401-02",
+        "CHK-GTG01-04",
+        "CHK-C101-05",
+        "CHK-PL101-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-01"
+      ],
+      "latency_ms": 3.9,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 1.0 Exchanger Design per "
+    },
+    {
+      "query_id": "QA-037",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-01",
+        "CHK-PL101-04",
+        "CHK-PL101-03",
+        "CHK-PL101-02",
+        "CHK-C101-05"
+      ],
+      "ground_truth_chunks": [
+        "CHK-PL101-01"
+      ],
+      "latency_ms": 4.13,
+      "total_tokens": 140,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 1.0 Design & Code Compliance): PL-"
+    },
+    {
+      "query_id": "QA-038",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-02",
+        "CHK-C101-06",
+        "CHK-C101-01",
+        "CHK-V102-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-06"
+      ],
+      "latency_ms": 4.84,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-039",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-06",
+        "CHK-C101-02",
+        "CHK-C101-04",
+        "CHK-SOP-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-05"
+      ],
+      "latency_ms": 4.65,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-040",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-06",
+        "CHK-C101-05",
+        "CHK-C101-02",
+        "CHK-C101-04",
+        "CHK-V102-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-06"
+      ],
+      "latency_ms": 4.82,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-041",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-SOP-01",
+        "CHK-C101-06",
+        "CHK-SOP-02",
+        "CHK-ESP304-04",
+        "CHK-V102-02"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 6.51,
+      "total_tokens": 140,
+      "answer_snippet": "According to Lockout / Tagout & Electrical Isolation Standard SOP-SAF-012 (Section 1.0 Golden Safety"
+    },
+    {
+      "query_id": "QA-042",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-SOP-01",
+        "CHK-SOP-04",
+        "CHK-SOP-02",
+        "CHK-PL101-03",
+        "CHK-WHCP01-01"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 4.81,
+      "total_tokens": 140,
+      "answer_snippet": "According to Lockout / Tagout & Electrical Isolation Standard SOP-SAF-012 (Section 1.0 Golden Safety"
+    },
+    {
+      "query_id": "QA-043",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-V102-03",
+        "CHK-V102-02",
+        "CHK-WHCP01-04",
+        "CHK-SOP-02",
+        "CHK-C101-06"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 4.56,
+      "total_tokens": 140,
+      "answer_snippet": "According to Electrostatic 3-Phase Separator V-102 Operating Manual (Section 3.2 Level Control & Saf"
+    },
+    {
+      "query_id": "QA-044",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-03",
+        "CHK-PL101-03",
+        "CHK-PL101-01",
+        "CHK-V102-01",
+        "CHK-C101-02"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 6.16,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 3.0 Tube Bundle Pull & Sa"
+    },
+    {
+      "query_id": "QA-045",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-V102-02",
+        "CHK-WHCP01-03",
+        "CHK-ESP304-03",
+        "CHK-PL101-01"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 4.01,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-046",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-01",
+        "CHK-C101-03",
+        "CHK-E205-03",
+        "CHK-GDU401-01",
+        "CHK-ESP304-01"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 4.13,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 1.0 Exchanger Design per "
+    },
+    {
+      "query_id": "QA-047",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-06",
+        "CHK-ESP304-02",
+        "CHK-V102-03",
+        "CHK-ESP304-01",
+        "CHK-ESDV201-03"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 4.85,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-048",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-04",
+        "CHK-C101-06",
+        "CHK-V102-04",
+        "CHK-SOP-02",
+        "CHK-C101-04"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 4.91,
+      "total_tokens": 140,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 4.2 Pig Signaller & Waste Sludge M"
+    },
+    {
+      "query_id": "QA-049",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-02",
+        "CHK-GDU401-03",
+        "CHK-KO501-04",
+        "CHK-V102-04",
+        "CHK-ESP304-03"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 3.94,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 2.1 Fouling Margin & Diff"
+    },
+    {
+      "query_id": "QA-050",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-06",
+        "CHK-PL101-02",
+        "CHK-V102-04",
+        "CHK-ESDV201-01",
+        "CHK-ESDV201-03"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 3.92,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    }
+  ],
+  "Model 3 (Hybrid + Rerank)": [
+    {
+      "query_id": "QA-001",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-04",
+        "CHK-C101-02",
+        "CHK-C101-06",
+        "CHK-C101-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-06"
+      ],
+      "latency_ms": 23.94,
+      "total_tokens": 953,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-002",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-V102-02",
+        "CHK-V102-01",
+        "CHK-V102-04",
+        "CHK-C101-03",
+        "CHK-WHCP01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-V102-02"
+      ],
+      "latency_ms": 16.16,
+      "total_tokens": 417,
+      "answer_snippet": "According to Electrostatic 3-Phase Separator V-102 Operating Manual (Section 2.3 High-Voltage Electr"
+    },
+    {
+      "query_id": "QA-003",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-03",
+        "CHK-ESDV201-02",
+        "CHK-ESDV201-01",
+        "CHK-ESDV201-04",
+        "CHK-WHCP01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-03"
+      ],
+      "latency_ms": 23.6,
+      "total_tokens": 534,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 3.0 Partial &"
+    },
+    {
+      "query_id": "QA-004",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-02",
+        "CHK-ESP304-01",
+        "CHK-ESP304-03",
+        "CHK-ESP304-04",
+        "CHK-C101-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-02"
+      ],
+      "latency_ms": 27.55,
+      "total_tokens": 535,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 2.2 Motor"
+    },
+    {
+      "query_id": "QA-005",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GDU401-02",
+        "CHK-GDU401-01",
+        "CHK-GDU401-04",
+        "CHK-GDU401-03",
+        "CHK-ESP304-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GDU401-02"
+      ],
+      "latency_ms": 27.44,
+      "total_tokens": 570,
+      "answer_snippet": "According to Glycol Dehydration Unit GDU-401 Process Operations Manual (Section 2.2 TEG Reboiler & S"
+    },
+    {
+      "query_id": "QA-006",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-02",
+        "CHK-KO501-01",
+        "CHK-KO501-03",
+        "CHK-KO501-04",
+        "CHK-V102-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-02"
+      ],
+      "latency_ms": 17.25,
+      "total_tokens": 670,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 2.0 Liquid Level Interlocks "
+    },
+    {
+      "query_id": "QA-007",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-02",
+        "CHK-E205-01",
+        "CHK-E205-04",
+        "CHK-V102-04",
+        "CHK-PL101-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-02"
+      ],
+      "latency_ms": 22.39,
+      "total_tokens": 533,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 2.1 Fouling Margin & Diff"
+    },
+    {
+      "query_id": "QA-008",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-02",
+        "CHK-GTG01-01",
+        "CHK-GTG01-04",
+        "CHK-GTG01-03",
+        "CHK-C101-06"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-02"
+      ],
+      "latency_ms": 23.97,
+      "total_tokens": 667,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 2.2 Exhaust Thermocoup"
+    },
+    {
+      "query_id": "QA-009",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-01",
+        "CHK-PL101-03",
+        "CHK-PL101-04",
+        "CHK-PL101-02",
+        "CHK-E205-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-PL101-01"
+      ],
+      "latency_ms": 19.13,
+      "total_tokens": 542,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 1.0 Design & Code Compliance): PL-"
+    },
+    {
+      "query_id": "QA-010",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-WHCP01-02",
+        "CHK-WHCP01-01",
+        "CHK-C101-01",
+        "CHK-V102-03",
+        "CHK-C101-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-02"
+      ],
+      "latency_ms": 16.79,
+      "total_tokens": 408,
+      "answer_snippet": "According to Wellhead Control Panel WHCP-01 Logic & Operations Manual (Section 2.2 Fusible Loop Fire"
+    },
+    {
+      "query_id": "QA-011",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-03",
+        "CHK-ESDV201-04",
+        "CHK-ESDV201-01",
+        "CHK-ESDV201-02",
+        "CHK-KO501-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-03"
+      ],
+      "latency_ms": 18.39,
+      "total_tokens": 400,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 3.0 Partial &"
+    },
+    {
+      "query_id": "QA-012",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-01",
+        "CHK-PL101-03",
+        "CHK-PL101-02",
+        "CHK-PL101-04",
+        "CHK-SOP-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-PL101-02"
+      ],
+      "latency_ms": 11.61,
+      "total_tokens": 560,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 1.0 Design & Code Compliance): PL-"
+    },
+    {
+      "query_id": "QA-013",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-03",
+        "CHK-E205-01",
+        "CHK-E205-04",
+        "CHK-SOP-02",
+        "CHK-GDU401-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-03"
+      ],
+      "latency_ms": 19.85,
+      "total_tokens": 556,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 3.0 Tube Bundle Pull & Sa"
+    },
+    {
+      "query_id": "QA-014",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-SOP-04",
+        "CHK-SOP-03",
+        "CHK-C101-02",
+        "CHK-SOP-01",
+        "CHK-C101-06"
+      ],
+      "ground_truth_chunks": [
+        "CHK-SOP-03"
+      ],
+      "latency_ms": 16.58,
+      "total_tokens": 140,
+      "answer_snippet": "According to Lockout / Tagout & Electrical Isolation Standard SOP-SAF-012 (Section 4.0 Group Lockbox"
+    },
+    {
+      "query_id": "QA-015",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GDU401-03",
+        "CHK-GDU401-04",
+        "CHK-GDU401-01",
+        "CHK-GDU401-02",
+        "CHK-E205-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GDU401-03"
+      ],
+      "latency_ms": 15.97,
+      "total_tokens": 554,
+      "answer_snippet": "According to Glycol Dehydration Unit GDU-401 Process Operations Manual (Section 3.3 Glycol Filtratio"
+    },
+    {
+      "query_id": "QA-016",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-WHCP01-01",
+        "CHK-WHCP01-03",
+        "CHK-WHCP01-02",
+        "CHK-V102-03",
+        "CHK-V102-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-03"
+      ],
+      "latency_ms": 20.59,
+      "total_tokens": 394,
+      "answer_snippet": "According to Wellhead Control Panel WHCP-01 Logic & Operations Manual (Section 1.0 Panel Architectur"
+    },
+    {
+      "query_id": "QA-017",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-04",
+        "CHK-KO501-01",
+        "CHK-KO501-03",
+        "CHK-ESP304-03",
+        "CHK-GTG01-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-04"
+      ],
+      "latency_ms": 11.46,
+      "total_tokens": 539,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 4.2 Confined Space Entry & G"
+    },
+    {
+      "query_id": "QA-018",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-04",
+        "CHK-GTG01-01",
+        "CHK-GTG01-02",
+        "CHK-ESDV201-01",
+        "CHK-KO501-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-04"
+      ],
+      "latency_ms": 16.37,
+      "total_tokens": 389,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 4.0 Startup Purge Sequ"
+    },
+    {
+      "query_id": "QA-019",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-SOP-01",
+        "CHK-SOP-02",
+        "CHK-PL101-02",
+        "CHK-SOP-04",
+        "CHK-WHCP01-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-SOP-01"
+      ],
+      "latency_ms": 12.54,
+      "total_tokens": 561,
+      "answer_snippet": "According to Lockout / Tagout & Electrical Isolation Standard SOP-SAF-012 (Section 1.0 Golden Safety"
+    },
+    {
+      "query_id": "QA-020",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-01",
+        "CHK-ESDV201-02",
+        "CHK-ESDV201-04",
+        "CHK-C101-04",
+        "CHK-C101-06"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-01"
+      ],
+      "latency_ms": 16.55,
+      "total_tokens": 403,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 1.0 Valve Spe"
+    },
+    {
+      "query_id": "QA-021",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-03",
+        "CHK-KO501-01",
+        "CHK-KO501-04",
+        "CHK-KO501-02",
+        "CHK-GTG01-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-03"
+      ],
+      "latency_ms": 14.92,
+      "total_tokens": 670,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 3.1 Continuous Purge Gas & T"
+    },
+    {
+      "query_id": "QA-022",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-WHCP01-02",
+        "CHK-WHCP01-01",
+        "CHK-WHCP01-04",
+        "CHK-WHCP01-03",
+        "CHK-C101-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-02"
+      ],
+      "latency_ms": 15.64,
+      "total_tokens": 654,
+      "answer_snippet": "According to Wellhead Control Panel WHCP-01 Logic & Operations Manual (Section 2.2 Fusible Loop Fire"
+    },
+    {
+      "query_id": "QA-023",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-V102-02",
+        "CHK-V102-01",
+        "CHK-V102-03",
+        "CHK-KO501-02",
+        "CHK-WHCP01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-V102-02"
+      ],
+      "latency_ms": 15.67,
+      "total_tokens": 561,
+      "answer_snippet": "According to Electrostatic 3-Phase Separator V-102 Operating Manual (Section 2.3 High-Voltage Electr"
+    },
+    {
+      "query_id": "QA-024",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-04",
+        "CHK-ESP304-01",
+        "CHK-ESP304-02",
+        "CHK-ESP304-03",
+        "CHK-C101-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-04"
+      ],
+      "latency_ms": 16.6,
+      "total_tokens": 390,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 4.0 VSD E"
+    },
+    {
+      "query_id": "QA-025",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-04",
+        "CHK-C101-01",
+        "CHK-C101-06",
+        "CHK-C101-05",
+        "CHK-C101-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-04"
+      ],
+      "latency_ms": 15.93,
+      "total_tokens": 953,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 4.3 Lube Oil & Bear"
+    },
+    {
+      "query_id": "QA-026",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-03",
+        "CHK-GTG01-01",
+        "CHK-GTG01-04",
+        "CHK-GTG01-02",
+        "CHK-ESP304-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-03"
+      ],
+      "latency_ms": 18.16,
+      "total_tokens": 519,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 3.1 NOx Abatement Wate"
+    },
+    {
+      "query_id": "QA-027",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-03",
+        "CHK-C101-04",
+        "CHK-C101-05",
+        "CHK-C101-01",
+        "CHK-C101-06"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-03"
+      ],
+      "latency_ms": 16.85,
+      "total_tokens": 776,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 3.1 Anti-Surge Cont"
+    },
+    {
+      "query_id": "QA-028",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-03",
+        "CHK-ESP304-02",
+        "CHK-ESP304-01",
+        "CHK-KO501-04",
+        "CHK-KO501-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-03"
+      ],
+      "latency_ms": 19.38,
+      "total_tokens": 535,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 3.1 Gas L"
+    },
+    {
+      "query_id": "QA-029",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GDU401-04",
+        "CHK-GDU401-01",
+        "CHK-GDU401-02",
+        "CHK-ESP304-03",
+        "CHK-GTG01-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GDU401-04"
+      ],
+      "latency_ms": 20.47,
+      "total_tokens": 570,
+      "answer_snippet": "According to Glycol Dehydration Unit GDU-401 Process Operations Manual (Section 4.1 Glycol Loss & Fo"
+    },
+    {
+      "query_id": "QA-030",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-01",
+        "CHK-E205-02",
+        "CHK-E205-04",
+        "CHK-E205-03",
+        "CHK-GDU401-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-02"
+      ],
+      "latency_ms": 16.59,
+      "total_tokens": 395,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 1.0 Exchanger Design per "
+    },
+    {
+      "query_id": "QA-031",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-03",
+        "CHK-KO501-01",
+        "CHK-KO501-02",
+        "CHK-KO501-04",
+        "CHK-C101-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-03"
+      ],
+      "latency_ms": 12.73,
+      "total_tokens": 670,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 3.1 Continuous Purge Gas & T"
+    },
+    {
+      "query_id": "QA-032",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-02",
+        "CHK-ESP304-04",
+        "CHK-ESP304-01",
+        "CHK-ESP304-03",
+        "CHK-KO501-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-02"
+      ],
+      "latency_ms": 15.7,
+      "total_tokens": 520,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 2.2 Motor"
+    },
+    {
+      "query_id": "QA-033",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-02",
+        "CHK-GTG01-01",
+        "CHK-GTG01-04",
+        "CHK-GTG01-03",
+        "CHK-ESDV201-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-02"
+      ],
+      "latency_ms": 15.69,
+      "total_tokens": 407,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 2.2 Exhaust Thermocoup"
+    },
+    {
+      "query_id": "QA-034",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-02",
+        "CHK-C101-05",
+        "CHK-C101-04",
+        "CHK-C101-06",
+        "CHK-C101-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-02"
+      ],
+      "latency_ms": 17.18,
+      "total_tokens": 953,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 2.2 Vibration Envel"
+    },
+    {
+      "query_id": "QA-035",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-04",
+        "CHK-ESDV201-01",
+        "CHK-ESDV201-02",
+        "CHK-ESDV201-03",
+        "CHK-KO501-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-04"
+      ],
+      "latency_ms": 16.19,
+      "total_tokens": 393,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 4.2 Seat Leak"
+    },
+    {
+      "query_id": "QA-036",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-01",
+        "CHK-E205-04",
+        "CHK-GDU401-02",
+        "CHK-GTG01-04",
+        "CHK-C101-05"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-01"
+      ],
+      "latency_ms": 11.2,
+      "total_tokens": 266,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 1.0 Exchanger Design per "
+    },
+    {
+      "query_id": "QA-037",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-01",
+        "CHK-PL101-04",
+        "CHK-PL101-03",
+        "CHK-PL101-02",
+        "CHK-C101-05"
+      ],
+      "ground_truth_chunks": [
+        "CHK-PL101-01"
+      ],
+      "latency_ms": 14.8,
+      "total_tokens": 391,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 1.0 Design & Code Compliance): PL-"
+    },
+    {
+      "query_id": "QA-038",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-02",
+        "CHK-C101-05",
+        "CHK-C101-06",
+        "CHK-C101-01",
+        "CHK-C101-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-06"
+      ],
+      "latency_ms": 12.13,
+      "total_tokens": 953,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 2.2 Vibration Envel"
+    },
+    {
+      "query_id": "QA-039",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-06",
+        "CHK-C101-02",
+        "CHK-C101-04",
+        "CHK-C101-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-05"
+      ],
+      "latency_ms": 16.1,
+      "total_tokens": 800,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-040",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-02",
+        "CHK-C101-06",
+        "CHK-C101-05",
+        "CHK-C101-04",
+        "CHK-C101-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-06"
+      ],
+      "latency_ms": 16.64,
+      "total_tokens": 968,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 2.2 Vibration Envel"
+    },
+    {
+      "query_id": "QA-041",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-SOP-01",
+        "CHK-C101-06",
+        "CHK-SOP-02",
+        "CHK-ESP304-04",
+        "CHK-V102-02"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 14.62,
+      "total_tokens": 140,
+      "answer_snippet": "According to Lockout / Tagout & Electrical Isolation Standard SOP-SAF-012 (Section 1.0 Golden Safety"
+    },
+    {
+      "query_id": "QA-042",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-SOP-01",
+        "CHK-SOP-02",
+        "CHK-WHCP01-01",
+        "CHK-SOP-04",
+        "CHK-PL101-03"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 16.29,
+      "total_tokens": 550,
+      "answer_snippet": "According to Lockout / Tagout & Electrical Isolation Standard SOP-SAF-012 (Section 1.0 Golden Safety"
+    },
+    {
+      "query_id": "QA-043",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-V102-03",
+        "CHK-V102-02",
+        "CHK-WHCP01-04",
+        "CHK-SOP-02",
+        "CHK-C101-06"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 15.79,
+      "total_tokens": 140,
+      "answer_snippet": "According to Electrostatic 3-Phase Separator V-102 Operating Manual (Section 3.2 Level Control & Saf"
+    },
+    {
+      "query_id": "QA-044",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-03",
+        "CHK-SOP-03",
+        "CHK-WHCP01-01",
+        "CHK-PL101-02",
+        "CHK-E205-03"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 15.85,
+      "total_tokens": 140,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 3.1 Pig Launching Procedure & Kick"
+    },
+    {
+      "query_id": "QA-045",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-PL101-03",
+        "CHK-V102-02",
+        "CHK-WHCP01-03",
+        "CHK-ESP304-03"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 18.43,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-046",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-01",
+        "CHK-C101-03",
+        "CHK-E205-03",
+        "CHK-GDU401-01",
+        "CHK-ESP304-01"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 16.96,
+      "total_tokens": 140,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 1.0 Exchanger Design per "
+    },
+    {
+      "query_id": "QA-047",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-06",
+        "CHK-ESP304-02",
+        "CHK-V102-03",
+        "CHK-ESP304-01",
+        "CHK-ESDV201-03"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 16.1,
+      "total_tokens": 140,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-048",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-04",
+        "CHK-C101-06",
+        "CHK-V102-04",
+        "CHK-SOP-02",
+        "CHK-C101-04"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 23.23,
+      "total_tokens": 140,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 4.2 Pig Signaller & Waste Sludge M"
+    },
+    {
+      "query_id": "QA-049",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-03",
+        "CHK-E205-02",
+        "CHK-GDU401-03",
+        "CHK-KO501-04",
+        "CHK-V102-04"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 19.05,
+      "total_tokens": 825,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 3.1 Anti-Surge Cont"
+    },
+    {
+      "query_id": "QA-050",
+      "is_answerable": false,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-02",
+        "CHK-ESDV201-01",
+        "CHK-ESDV201-03",
+        "CHK-C101-03",
+        "CHK-V102-03"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 19.97,
+      "total_tokens": 849,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 2.0 Mechanical Trapped-Key Interlo"
+    }
+  ],
+  "Model 4 (Proposed PetroRAG)": [
+    {
+      "query_id": "QA-001",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-06",
+        "CHK-C101-04",
+        "CHK-C101-02",
+        "CHK-C101-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-06"
+      ],
+      "latency_ms": 15.93,
+      "total_tokens": 727,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-002",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-V102-02",
+        "CHK-V102-01",
+        "CHK-V102-04",
+        "CHK-V102-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-V102-02"
+      ],
+      "latency_ms": 5.18,
+      "total_tokens": 258,
+      "answer_snippet": "According to Electrostatic 3-Phase Separator V-102 Operating Manual (Section 2.3 High-Voltage Electr"
+    },
+    {
+      "query_id": "QA-003",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-03",
+        "CHK-ESDV201-02",
+        "CHK-ESDV201-01",
+        "CHK-ESDV201-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-03"
+      ],
+      "latency_ms": 5.64,
+      "total_tokens": 386,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 3.0 Partial &"
+    },
+    {
+      "query_id": "QA-004",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-01",
+        "CHK-ESP304-02",
+        "CHK-ESP304-03",
+        "CHK-ESP304-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-02"
+      ],
+      "latency_ms": 8.03,
+      "total_tokens": 339,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 1.0 Downh"
+    },
+    {
+      "query_id": "QA-005",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GDU401-02",
+        "CHK-GDU401-01",
+        "CHK-GDU401-04",
+        "CHK-GDU401-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GDU401-02"
+      ],
+      "latency_ms": 6.45,
+      "total_tokens": 362,
+      "answer_snippet": "According to Glycol Dehydration Unit GDU-401 Process Operations Manual (Section 2.2 TEG Reboiler & S"
+    },
+    {
+      "query_id": "QA-006",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-02",
+        "CHK-KO501-01",
+        "CHK-KO501-03",
+        "CHK-KO501-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-02"
+      ],
+      "latency_ms": 6.72,
+      "total_tokens": 458,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 2.0 Liquid Level Interlocks "
+    },
+    {
+      "query_id": "QA-007",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-02",
+        "CHK-E205-01",
+        "CHK-E205-04",
+        "CHK-E205-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-02"
+      ],
+      "latency_ms": 5.84,
+      "total_tokens": 380,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 2.1 Fouling Margin & Diff"
+    },
+    {
+      "query_id": "QA-008",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-02",
+        "CHK-GTG01-01",
+        "CHK-GTG01-04",
+        "CHK-GTG01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-02"
+      ],
+      "latency_ms": 7.44,
+      "total_tokens": 405,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 2.2 Exhaust Thermocoup"
+    },
+    {
+      "query_id": "QA-009",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-01",
+        "CHK-PL101-03",
+        "CHK-PL101-04",
+        "CHK-PL101-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-PL101-01"
+      ],
+      "latency_ms": 6.37,
+      "total_tokens": 390,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 1.0 Design & Code Compliance): PL-"
+    },
+    {
+      "query_id": "QA-010",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-WHCP01-02",
+        "CHK-WHCP01-01",
+        "CHK-WHCP01-04",
+        "CHK-WHCP01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-02"
+      ],
+      "latency_ms": 4.39,
+      "total_tokens": 266,
+      "answer_snippet": "According to Wellhead Control Panel WHCP-01 Logic & Operations Manual (Section 2.2 Fusible Loop Fire"
+    },
+    {
+      "query_id": "QA-011",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-03",
+        "CHK-ESDV201-04",
+        "CHK-ESDV201-01",
+        "CHK-ESDV201-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-03"
+      ],
+      "latency_ms": 5.27,
+      "total_tokens": 299,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 3.0 Partial &"
+    },
+    {
+      "query_id": "QA-012",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-01",
+        "CHK-PL101-03",
+        "CHK-PL101-02",
+        "CHK-PL101-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-PL101-02"
+      ],
+      "latency_ms": 5.55,
+      "total_tokens": 366,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 1.0 Design & Code Compliance): PL-"
+    },
+    {
+      "query_id": "QA-013",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-03",
+        "CHK-E205-01",
+        "CHK-E205-04",
+        "CHK-E205-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-03"
+      ],
+      "latency_ms": 5.59,
+      "total_tokens": 360,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 3.0 Tube Bundle Pull & Sa"
+    },
+    {
+      "query_id": "QA-014",
+      "is_answerable": true,
+      "is_abstained": true,
+      "retrieved_chunks": [
+        "CHK-SOP-04",
+        "CHK-SOP-03",
+        "CHK-SOP-01",
+        "CHK-C101-02",
+        "CHK-C101-06"
+      ],
+      "ground_truth_chunks": [
+        "CHK-SOP-03"
+      ],
+      "latency_ms": 18.14,
+      "total_tokens": 75,
+      "answer_snippet": "Abstained: Top retrieved candidate score (0.1000) is below confidence threshold (0.3000)."
+    },
+    {
+      "query_id": "QA-015",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GDU401-03",
+        "CHK-GDU401-04",
+        "CHK-GDU401-01",
+        "CHK-GDU401-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GDU401-03"
+      ],
+      "latency_ms": 5.81,
+      "total_tokens": 332,
+      "answer_snippet": "According to Glycol Dehydration Unit GDU-401 Process Operations Manual (Section 3.3 Glycol Filtratio"
+    },
+    {
+      "query_id": "QA-016",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-WHCP01-01",
+        "CHK-WHCP01-03",
+        "CHK-WHCP01-02",
+        "CHK-WHCP01-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-03"
+      ],
+      "latency_ms": 4.91,
+      "total_tokens": 267,
+      "answer_snippet": "According to Wellhead Control Panel WHCP-01 Logic & Operations Manual (Section 1.0 Panel Architectur"
+    },
+    {
+      "query_id": "QA-017",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-04",
+        "CHK-KO501-01",
+        "CHK-KO501-03",
+        "CHK-KO501-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-04"
+      ],
+      "latency_ms": 6.17,
+      "total_tokens": 390,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 4.2 Confined Space Entry & G"
+    },
+    {
+      "query_id": "QA-018",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-04",
+        "CHK-GTG01-01",
+        "CHK-GTG01-02",
+        "CHK-GTG01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-04"
+      ],
+      "latency_ms": 4.97,
+      "total_tokens": 266,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 4.0 Startup Purge Sequ"
+    },
+    {
+      "query_id": "QA-019",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-SOP-01",
+        "CHK-SOP-02",
+        "CHK-PL101-02",
+        "CHK-SOP-04",
+        "CHK-WHCP01-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-SOP-01"
+      ],
+      "latency_ms": 18.73,
+      "total_tokens": 358,
+      "answer_snippet": "According to Lockout / Tagout & Electrical Isolation Standard SOP-SAF-012 (Section 1.0 Golden Safety"
+    },
+    {
+      "query_id": "QA-020",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-01",
+        "CHK-ESDV201-02",
+        "CHK-ESDV201-04",
+        "CHK-ESDV201-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-01"
+      ],
+      "latency_ms": 5.12,
+      "total_tokens": 299,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 1.0 Valve Spe"
+    },
+    {
+      "query_id": "QA-021",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-03",
+        "CHK-KO501-01",
+        "CHK-KO501-04",
+        "CHK-KO501-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-03"
+      ],
+      "latency_ms": 6.04,
+      "total_tokens": 500,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 3.1 Continuous Purge Gas & T"
+    },
+    {
+      "query_id": "QA-022",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-WHCP01-02",
+        "CHK-WHCP01-01",
+        "CHK-WHCP01-04",
+        "CHK-WHCP01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-WHCP01-02"
+      ],
+      "latency_ms": 6.29,
+      "total_tokens": 433,
+      "answer_snippet": "According to Wellhead Control Panel WHCP-01 Logic & Operations Manual (Section 2.2 Fusible Loop Fire"
+    },
+    {
+      "query_id": "QA-023",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-V102-02",
+        "CHK-V102-01",
+        "CHK-V102-03",
+        "CHK-V102-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-V102-02"
+      ],
+      "latency_ms": 5.2,
+      "total_tokens": 374,
+      "answer_snippet": "According to Electrostatic 3-Phase Separator V-102 Operating Manual (Section 2.3 High-Voltage Electr"
+    },
+    {
+      "query_id": "QA-024",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-01",
+        "CHK-ESP304-04",
+        "CHK-ESP304-02",
+        "CHK-ESP304-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-04"
+      ],
+      "latency_ms": 6.04,
+      "total_tokens": 287,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 1.0 Downh"
+    },
+    {
+      "query_id": "QA-025",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-04",
+        "CHK-C101-01",
+        "CHK-C101-02",
+        "CHK-C101-06",
+        "CHK-C101-05"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-04"
+      ],
+      "latency_ms": 7.77,
+      "total_tokens": 727,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 4.3 Lube Oil & Bear"
+    },
+    {
+      "query_id": "QA-026",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-03",
+        "CHK-GTG01-01",
+        "CHK-GTG01-04",
+        "CHK-GTG01-02"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-03"
+      ],
+      "latency_ms": 7.02,
+      "total_tokens": 320,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 3.1 NOx Abatement Wate"
+    },
+    {
+      "query_id": "QA-027",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-03",
+        "CHK-C101-04",
+        "CHK-C101-01",
+        "CHK-C101-05",
+        "CHK-C101-06"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-03"
+      ],
+      "latency_ms": 20.64,
+      "total_tokens": 636,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 3.1 Anti-Surge Cont"
+    },
+    {
+      "query_id": "QA-028",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-01",
+        "CHK-ESP304-03",
+        "CHK-ESP304-02",
+        "CHK-ESP304-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-03"
+      ],
+      "latency_ms": 5.63,
+      "total_tokens": 410,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 1.0 Downh"
+    },
+    {
+      "query_id": "QA-029",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GDU401-04",
+        "CHK-GDU401-01",
+        "CHK-GDU401-02",
+        "CHK-GDU401-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GDU401-04"
+      ],
+      "latency_ms": 5.52,
+      "total_tokens": 342,
+      "answer_snippet": "According to Glycol Dehydration Unit GDU-401 Process Operations Manual (Section 4.1 Glycol Loss & Fo"
+    },
+    {
+      "query_id": "QA-030",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-01",
+        "CHK-E205-02",
+        "CHK-E205-04",
+        "CHK-E205-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-02"
+      ],
+      "latency_ms": 6.19,
+      "total_tokens": 283,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 1.0 Exchanger Design per "
+    },
+    {
+      "query_id": "QA-031",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-KO501-03",
+        "CHK-KO501-01",
+        "CHK-KO501-02",
+        "CHK-KO501-04"
+      ],
+      "ground_truth_chunks": [
+        "CHK-KO501-03"
+      ],
+      "latency_ms": 5.68,
+      "total_tokens": 489,
+      "answer_snippet": "According to Flare Knockout Drum KO-501 Operating & Safety SOP (Section 3.1 Continuous Purge Gas & T"
+    },
+    {
+      "query_id": "QA-032",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESP304-01",
+        "CHK-ESP304-02",
+        "CHK-ESP304-04",
+        "CHK-ESP304-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESP304-02"
+      ],
+      "latency_ms": 5.12,
+      "total_tokens": 366,
+      "answer_snippet": "According to Electric Submersible Pump ESP-304 Operations & Troubleshooting Guide (Section 1.0 Downh"
+    },
+    {
+      "query_id": "QA-033",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-GTG01-02",
+        "CHK-GTG01-01",
+        "CHK-GTG01-04",
+        "CHK-GTG01-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-GTG01-02"
+      ],
+      "latency_ms": 5.71,
+      "total_tokens": 275,
+      "answer_snippet": "According to Gas Turbine Generator GTG-01 Operating & Control Manual (Section 2.2 Exhaust Thermocoup"
+    },
+    {
+      "query_id": "QA-034",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-02",
+        "CHK-C101-04",
+        "CHK-C101-05",
+        "CHK-C101-06",
+        "CHK-C101-01"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-02"
+      ],
+      "latency_ms": 7.97,
+      "total_tokens": 727,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 2.2 Vibration Envel"
+    },
+    {
+      "query_id": "QA-035",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-ESDV201-04",
+        "CHK-ESDV201-01",
+        "CHK-ESDV201-02",
+        "CHK-ESDV201-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-ESDV201-04"
+      ],
+      "latency_ms": 4.82,
+      "total_tokens": 261,
+      "answer_snippet": "According to Emergency Shutdown Valve ESDV-201 Safety Critical Element Manual (Section 4.2 Seat Leak"
+    },
+    {
+      "query_id": "QA-036",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-E205-01",
+        "CHK-E205-04",
+        "CHK-E205-02",
+        "CHK-E205-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-E205-01"
+      ],
+      "latency_ms": 5.65,
+      "total_tokens": 191,
+      "answer_snippet": "According to Shell & Tube Heat Exchanger E-205 Maintenance Manual (Section 1.0 Exchanger Design per "
+    },
+    {
+      "query_id": "QA-037",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-PL101-01",
+        "CHK-PL101-04",
+        "CHK-PL101-02",
+        "CHK-PL101-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-PL101-01"
+      ],
+      "latency_ms": 4.92,
+      "total_tokens": 308,
+      "answer_snippet": "According to Pipeline Pig Launcher / Receiver PL-101 SOP (Section 1.0 Design & Code Compliance): PL-"
+    },
+    {
+      "query_id": "QA-038",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-02",
+        "CHK-C101-05",
+        "CHK-C101-01",
+        "CHK-C101-04",
+        "CHK-C101-06"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-06"
+      ],
+      "latency_ms": 9.88,
+      "total_tokens": 727,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 2.2 Vibration Envel"
+    },
+    {
+      "query_id": "QA-039",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-C101-06",
+        "CHK-C101-02",
+        "CHK-C101-04",
+        "CHK-C101-03"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-05"
+      ],
+      "latency_ms": 8.59,
+      "total_tokens": 670,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Technical Bulletin & Setpoint Revision (Rev 4) (Sectio"
+    },
+    {
+      "query_id": "QA-040",
+      "is_answerable": true,
+      "is_abstained": false,
+      "retrieved_chunks": [
+        "CHK-C101-02",
+        "CHK-C101-04",
+        "CHK-C101-03",
+        "CHK-C101-06",
+        "CHK-C101-05"
+      ],
+      "ground_truth_chunks": [
+        "CHK-C101-06"
+      ],
+      "latency_ms": 10.45,
+      "total_tokens": 733,
+      "answer_snippet": "According to Centrifugal Gas Compressor C-101 Operations Manual (Rev 3) (Section 2.2 Vibration Envel"
+    },
+    {
+      "query_id": "QA-041",
+      "is_answerable": false,
+      "is_abstained": true,
+      "retrieved_chunks": [
+        "CHK-SOP-01",
+        "CHK-SOP-02",
+        "CHK-C101-06",
+        "CHK-ESP304-04",
+        "CHK-V102-02"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 16.47,
+      "total_tokens": 75,
+      "answer_snippet": "Abstained: Top retrieved candidate score (0.1705) is below confidence threshold (0.3000)."
+    },
+    {
+      "query_id": "QA-042",
+      "is_answerable": false,
+      "is_abstained": true,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.04,
+      "total_tokens": 75,
+      "answer_snippet": "Abstained: Query contains unauthorized system or command execution syntax."
+    },
+    {
+      "query_id": "QA-043",
+      "is_answerable": false,
+      "is_abstained": true,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.04,
+      "total_tokens": 75,
+      "answer_snippet": "Abstained: Query contains unauthorized system or command execution syntax."
+    },
+    {
+      "query_id": "QA-044",
+      "is_answerable": false,
+      "is_abstained": true,
+      "retrieved_chunks": [
+        "CHK-PL101-03",
+        "CHK-PL101-02",
+        "CHK-SOP-03",
+        "CHK-WHCP01-01",
+        "CHK-E205-03"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 17.07,
+      "total_tokens": 75,
+      "answer_snippet": "Abstained: Top retrieved candidate score (0.1750) is below confidence threshold (0.3000)."
+    },
+    {
+      "query_id": "QA-045",
+      "is_answerable": false,
+      "is_abstained": true,
+      "retrieved_chunks": [
+        "CHK-C101-05",
+        "CHK-PL101-03",
+        "CHK-V102-02",
+        "CHK-WHCP01-03",
+        "CHK-ESP304-03"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 16.18,
+      "total_tokens": 75,
+      "answer_snippet": "Abstained: Top retrieved candidate score (0.1333) is below confidence threshold (0.3000)."
+    },
+    {
+      "query_id": "QA-046",
+      "is_answerable": false,
+      "is_abstained": true,
+      "retrieved_chunks": [
+        "CHK-E205-01",
+        "CHK-E205-03",
+        "CHK-C101-03",
+        "CHK-GDU401-01",
+        "CHK-ESP304-01"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 15.5,
+      "total_tokens": 75,
+      "answer_snippet": "Abstained: Top retrieved candidate score (0.1250) is below confidence threshold (0.3000)."
+    },
+    {
+      "query_id": "QA-047",
+      "is_answerable": false,
+      "is_abstained": true,
+      "retrieved_chunks": [
+        "CHK-ESP304-01",
+        "CHK-C101-06",
+        "CHK-V102-03",
+        "CHK-ESDV201-03",
+        "CHK-ESP304-02"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 22.09,
+      "total_tokens": 75,
+      "answer_snippet": "Abstained: Top retrieved candidate score (0.1000) is below confidence threshold (0.3000)."
+    },
+    {
+      "query_id": "QA-048",
+      "is_answerable": false,
+      "is_abstained": true,
+      "retrieved_chunks": [
+        "CHK-PL101-04",
+        "CHK-C101-06",
+        "CHK-V102-04",
+        "CHK-SOP-02",
+        "CHK-C101-04"
+      ],
+      "ground_truth_chunks": [],
+      "latency_ms": 21.54,
+      "total_tokens": 75,
+      "answer_snippet": "Abstained: Top retrieved candidate score (0.0800) is below confidence threshold (0.3000)."
+    },
+    {
+      "query_id": "QA-049",
+      "is_answerable": false,
+      "is_abstained": true,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.44,
+      "total_tokens": 75,
+      "answer_snippet": "Abstained: Insufficient context or ambiguous query. Please specify an equipment tag, system, or oper"
+    },
+    {
+      "query_id": "QA-050",
+      "is_answerable": false,
+      "is_abstained": true,
+      "retrieved_chunks": [],
+      "ground_truth_chunks": [],
+      "latency_ms": 0.39,
+      "total_tokens": 75,
+      "answer_snippet": "Abstained: Insufficient context or ambiguous query. Please specify an equipment tag, system, or oper"
+    }
+  ]
+}

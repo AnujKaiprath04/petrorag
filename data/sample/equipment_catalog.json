@@ -1,0 +1,35 @@
+[
+  {
+    "equipment_id": "EQ-C101",
+    "tag_name": "C-101",
+    "equipment_type": "COMPRESSOR",
+    "asset": "Train-1 Gas Processing",
+    "field": "North Field",
+    "well": "WELL-A1",
+    "manufacturer": "Solar Turbines",
+    "model": "Centaur 50",
+    "status": "OPERATIONAL"
+  },
+  {
+    "equipment_id": "EQ-V102",
+    "tag_name": "V-102",
+    "equipment_type": "SEPARATOR",
+    "asset": "Central Processing Facility",
+    "field": "North Field",
+    "well": "WELL-A1",
+    "manufacturer": "Cameron",
+    "model": "3-Phase Coalescer",
+    "status": "OPERATIONAL"
+  },
+  {
+    "equipment_id": "EQ-P201",
+    "tag_name": "P-201",
+    "equipment_type": "PUMP",
+    "asset": "Water Injection Station",
+    "field": "South Field",
+    "well": "WELL-B2",
+    "manufacturer": "Sulzer",
+    "model": "MSD 6-Stage",
+    "status": "OPERATIONAL"
+  }
+]

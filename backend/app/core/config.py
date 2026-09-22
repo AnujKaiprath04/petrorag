@@ -70,6 +70,42 @@ class Settings(BaseSettings):
     MIN_CHUNK_LENGTH: int = 30
     MAX_CHUNK_LENGTH: int = 2000
 
+    # Part 2 Hybrid Retrieval & BM25 Configuration
+    BM25_INDEX_PATH: Path = PROJECT_ROOT / "data" / "processed" / "bm25_index.json"
+    BM25_K1: float = 1.5
+    BM25_B: float = 0.75
+    RRF_K: int = 60
+    DENSE_WEIGHT: float = 0.55
+    SPARSE_WEIGHT: float = 0.45
+    RETRIEVAL_CANDIDATE_POOL_SIZE: int = 30
+    DEFAULT_TOP_K: int = 5
+
+    # Part 2 Reranker Configuration
+    RERANKER_MODEL_NAME: str = "BAAI/bge-reranker-base"
+    RERANKER_DEVICE: str = "cpu"
+    RERANKER_BATCH_SIZE: int = 16
+
+    # Part 2 Context & Prompt Configuration
+    CONTEXT_TOKEN_BUDGET: int = 2048
+    PRESERVE_TECHNICAL_PARAMS: bool = True
+    COMPRESSION_ENABLED: bool = True
+    COMPRESSION_TARGET_RATIO: float = 0.65
+    COMPRESSION_MIN_SENTENCE_SCORE: float = 0.15
+
+    # Part 2 LLM Provider Configuration
+    LLM_PROVIDER: str = "openai"
+    LLM_MODEL: str = "gpt-4o-mini"
+    LLM_TEMPERATURE: float = 0.0
+    LLM_MAX_TOKENS: int = 1024
+    OPENAI_API_KEY: Optional[str] = None
+    GEMINI_API_KEY: Optional[str] = None
+    ANTHROPIC_API_KEY: Optional[str] = None
+    OLLAMA_BASE_URL: str = "http://localhost:11434"
+
+    # Part 2 Grounding & Abstention Thresholds
+    GROUNDING_THRESHOLD: float = 0.70
+    ABSTENTION_RETRIEVAL_THRESHOLD: float = 0.30
+
     def ensure_directories(self) -> None:
         """Create required data and storage directories if they do not exist."""
         for path in [
